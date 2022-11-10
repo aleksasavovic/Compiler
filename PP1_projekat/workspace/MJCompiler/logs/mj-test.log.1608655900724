@@ -1,0 +1,12 @@
+INFO  17:50:32,241 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  17:50:32,271 - #2 program
+INFO  17:50:32,271 - #38 MJProgram
+INFO  17:50:32,271 - #18 class
+INFO  17:50:32,272 - #38 Aleksa
+INFO  17:50:32,272 - #17 extends
+INFO  17:50:32,272 - #38 Selena
+INFO  17:50:32,272 - #3 {
+INFO  17:50:32,273 - #38 int
+ERROR 17:50:32,273 - 
+Sintaksna greska na liniji 3
+ERROR 17:50:32,273 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

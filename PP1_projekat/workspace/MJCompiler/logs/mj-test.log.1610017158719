@@ -1,0 +1,72 @@
+INFO  11:57:41,769 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:57:41,837 - #2 program
+INFO  11:57:41,837 - #47 test301
+INFO  11:57:41,838 - #13 const
+INFO  11:57:41,839 - #47 int
+INFO  11:57:41,840 - #47 jedan
+INFO  11:57:41,840 - #11 =
+INFO  11:57:41,841 - #46 1
+INFO  11:57:41,841 - #5 ;
+INFO  11:57:41,841 - #13 const
+INFO  11:57:41,842 - #47 int
+INFO  11:57:41,842 - #47 pet
+INFO  11:57:41,842 - #11 =
+INFO  11:57:41,842 - #46 5
+INFO  11:57:41,842 - #5 ;
+INFO  11:57:41,842 - #13 const
+INFO  11:57:41,842 - #47 char
+INFO  11:57:41,842 - #47 sel
+INFO  11:57:41,842 - #11 =
+INFO  11:57:41,842 - #49 c
+INFO  11:57:41,842 - #5 ;
+INFO  11:57:41,845 - #47 char
+INFO  11:57:41,845 - #47 pom
+INFO  11:57:41,846 - #5 ;
+INFO  11:57:41,846 - #47 int
+INFO  11:57:41,846 - #47 niz
+INFO  11:57:41,846 - #15 [
+INFO  11:57:41,846 - #14 ]
+INFO  11:57:41,847 - #8 ,
+INFO  11:57:41,847 - #47 num
+INFO  11:57:41,847 - #5 ;
+INFO  11:57:41,847 - #47 char
+INFO  11:57:41,847 - #47 nizch
+INFO  11:57:41,847 - #15 [
+INFO  11:57:41,847 - #14 ]
+INFO  11:57:41,847 - #8 ,
+INFO  11:57:41,847 - #47 c
+INFO  11:57:41,847 - #5 ;
+INFO  11:57:41,848 - #3 {
+INFO  11:57:41,848 - #47 int
+INFO  11:57:41,848 - #47 al
+INFO  11:57:41,849 - #6 (
+INFO  11:57:41,849 - #7 )
+INFO  11:57:41,850 - #3 {
+INFO  11:57:41,850 - #36 return
+INFO  11:57:41,851 - #47 jedan
+INFO  11:57:41,852 - #5 ;
+INFO  11:57:41,854 - #4 }
+INFO  11:57:41,854 - #12 void
+INFO  11:57:41,855 - #47 main
+INFO  11:57:41,855 - #6 (
+INFO  11:57:41,856 - #7 )
+INFO  11:57:41,856 - #3 {
+INFO  11:57:41,856 - #47 c
+INFO  11:57:41,856 - #11 =
+INFO  11:57:41,856 - #47 sel
+INFO  11:57:41,857 - #5 ;
+INFO  11:57:41,857 - #47 niz
+INFO  11:57:41,858 - #15 [
+INFO  11:57:41,858 - #46 2
+INFO  11:57:41,866 - #14 ]
+INFO  11:57:41,866 - #11 =
+INFO  11:57:41,866 - #19 -
+INFO  11:57:41,867 - #47 num
+INFO  11:57:41,867 - #5 ;
+INFO  11:57:41,868 - #4 }
+INFO  11:57:41,868 - #4 }
+INFO  11:57:41,899 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 20
+INFO  11:57:41,899 - Detektovano koriscenje globalne promenljive Var c: char, 4, 0  na liniji 23
+INFO  11:57:41,899 - Detektovano koriscenje konstante Con sel: char, 99, 0  na liniji 23
+INFO  11:57:41,899 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 1, 0  na liniji 24
+INFO  11:57:41,900 - Detektovano koriscenje globalne promenljive Var num: int, 2, 0  na liniji 24

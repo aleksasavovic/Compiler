@@ -1,0 +1,380 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, PLUS, EQUAL, VOID, CONST, RBRACKET, LBRACKET, EXTENDS, CLASS, READ, MINUS, MUL, DIV, MOD, INCREMENT, DECREMENT, NEW, EQUALS, NOT_EQUALS, MORE, MORE_EQUAL, LESS, LESS_EQUAL, QMARK, COLON, BREAK, CONTINUE, RETURN, DOT, AND, OR, DO, WHILE, SWITCH, CASE;
+terminal IF, ELSE;
+terminal Integer NUMCONST;
+terminal String IDENT;
+terminal Boolean BOOLCONST;
+terminal Character CHARCONST;
+
+
+nonterminal MethodDeclList, VarDecl, Return, DesignatorArray, Print;
+nonterminal FormParamList, FormParamDecl, FormPars, ActualPars, ActualParamList; 
+nonterminal StatementList, Statement, AddOp;
+nonterminal Program, MethodDecl, VarDeclList, Unmatched, Matched;
+nonterminal DeclList, Decl, ConstDecl, ClassDecl, ConstInit, ConstInitList, VarDeclBaseList, VarDeclBase, ArrayBracket, ClassExtended, ClassMethodList, MulOp, DesignatorStatement, OptMulFactor, OptAddTerm, OptMinus, RelOp, ComplexDesignator, AssignOp, OptActPars, ActPars, ExprCommaList, OptActParsWithParens, Condition, CondTerm, CondTermOrList, CondFactAndList, ElseStm, CaseList;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, MethodTypeName, Designator; 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, AddExpr, Term, Factor, CondFact, Colon; 
+
+precedence left ELSE;
+
+
+
+Program ::= (Program) PROG ProgName DeclList LBRACE MethodDeclList RBRACE 
+;
+
+ProgName ::= (ProgName) IDENT:name 
+;
+
+DeclList ::= (DecConstList) DeclList ConstDecl
+			|
+			(DecVarList) DeclList VarDecl
+			|
+			(DecClassList) DeclList ClassDecl
+			|
+			(NoDeclList);
+
+
+ConstDecl ::= (ConstDecl) CONST Type ConstInitList SEMI
+			  ;
+
+ConstInitList ::= (ConstInitiations) ConstInitList COMMA ConstInit
+				  |
+				  (SingleConstInitiation) ConstInit
+				 ;
+// 3 visit-a za izvedene klase za Tab.insert(Obj.Con, name, currentType).setAdr(value)				 
+ConstInit ::= (ConstNumInit) IDENT:name EQUAL NUMCONST:value
+			|
+			(ConstCharInit) IDENT:name EQUAL CHARCONST:value
+			|
+			(ConstBoolInit) IDENT:name EQUAL BOOLCONST:value 
+			;
+
+VarDecl ::= (VarDeclNoError) Type VarDeclBaseList SEMI
+			|
+			(VarDeclError) Type error SEMI		
+			;
+
+VarDeclBaseList ::= (VarDeclarationsBase) VarDeclBaseList COMMA VarDeclBase
+					|
+					(VarDeclarationsBaseError) error COMMA VarDeclBase
+					|
+					(SingleVarDeclarationBase) VarDeclBase
+					;
+
+// 2 visit-a za izvedene klase za Tab.insert(Obj.Var, name, type)	
+VarDeclBase ::= (VarDeclBaseArray) IDENT:name LBRACKET RBRACKET // type = new Struct(Struct.Array, currentType)
+			|
+			(VarDeclBaseNotArray) IDENT:name // type = currentType
+			;
+
+
+
+ClassDecl ::= CLASS IDENT:name  ClassExtended LBRACE VarDeclList  ClassMethodList  RBRACE;
+			
+ClassExtended ::= (ClassIsExtended) EXTENDS Type:parrentClassName
+				  |
+				  (ClassNotExtended)
+				  ;
+
+ClassMethodList ::= (ClassMethods) LBRACE MethodDeclList RBRACE
+				 |
+				 (NoClassMethods)
+				 ;						   
+
+
+				
+VarDeclList ::= (VarDeclarations) VarDeclList VarDecl
+			   |
+			   (NoVarDeclarations)
+			   ;
+			   
+				
+MethodDeclList ::= (MethodDeclListarations) MethodDeclList MethodDecl
+					|
+					(NoMethodDeclListarations)/* epsilon */
+					;
+
+
+MethodDecl ::= (MethodDecl) MethodTypeName LPAREN FormPars RPAREN  VarDeclList LBRACE StatementList RBRACE  
+				;
+
+MethodTypeName ::= (MethodType) Type IDENT:name 
+					|
+					(MethodVoid) VOID IDENT:name
+					;
+
+FormPars ::= (FormParams) FormParamList // greska ako se currentMethod zove main
+			 | 
+			 (NoFormParam)
+			  ;
+
+FormParamList ::= (FormParamDecls) FormParamList COMMA FormParamDecl
+					|
+					(SingleFormParamDecl) FormParamDecl
+					;
+					
+FormParamDecl ::= (FormParamDeclNotArray) Type:type IDENT:name 
+				   |
+				   (FormParamDeclArray) Type:type IDENT:name LBRACKET RBRACKET
+				   ;
+				   
+				   
+Type ::= (Type) IDENT:typeName 
+		;
+
+
+StatementList ::= (Statements) StatementList Statement 
+					|
+				  (NoStmt) /* epsilon */
+				  ;
+Statement ::= (DesignatorStatementt) DesignatorStatement SEMI
+			  |
+			  (ReadStatement) READ LPAREN Designator RPAREN SEMI
+			  |
+			  (PrintStatementOneArgument) PRINT LPAREN Expr RPAREN SEMI
+			  |
+			  (PrintStatementTwoArguments) PRINT LPAREN Expr COMMA NUMCONST:value RPAREN SEMI
+			  |
+			  (BreakStatement) BREAK SEMI
+			  |
+			  (ContinueStatement) CONTINUE SEMI
+			  |
+			  (VoidReturnStatement) Return SEMI
+			  |
+			  (TypeReturnStatement) Return Expr SEMI
+			  |
+			  (BraceStatement) LBRACE StatementList RBRACE 
+			  |
+			  (IfElseStatement) IF LPAREN Condition RPAREN Statement ElseStm
+			  |
+			  (DoWhileLoopStatement) DO Statement WHILE LPAREN Condition RPAREN SEMI
+			  |
+			  (SwitchStatement) SWITCH LPAREN Expr RPAREN LBRACE CaseList RBRACE
+			  ;
+			  
+Return ::= (Return) RETURN
+;
+Print ::= (Print) Print
+		;
+CaseList ::= (ManyCaseList) CaseList CASE NUMCONST COLON StatementList
+			 |
+			 (NoCaseList)
+			 ;
+				
+
+ElseStm ::= (OneElseStm) ELSE Statement
+			|
+			(NoElseStm)
+			;
+
+DesignatorStatement ::= (DesignatorStatementEqual) Designator AssignOp Expr
+						|
+						(DesignatorStatementEqualError) Designator AssignOp error
+						|
+						(DesignatorStatementIncrement) Designator INCREMENT
+						|
+						(DesignatorStatementDecrement) Designator DECREMENT
+						|
+						(DesignatorStatementFunctionCall) Designator LPAREN OptActPars RPAREN
+						;
+						
+ActPars ::= (ActPars) Expr ExprCommaList
+			;
+			
+ExprCommaList ::= (ExpressionCommaList) ExprCommaList COMMA Expr
+			 |
+			 (NoExprCommaList)
+			 ;
+			 
+OptActPars ::= (SingleOptActPars) ActPars
+			   |
+			   (NoOptActPars)
+			   ;
+
+//Statement ::= (MatchedStmt) Matched | (UnmachedStmt) Unmatched ;
+//
+//Unmatched ::= (UnmatchedIf) IF Expr Statement | (UnmatchedIfElse) IF Expr Matched ELSE Unmatched;
+//	
+//				  
+//Matched ::= (Assignment) Designator:dest EQUAL Expr:e SEMI 
+//			  |
+//			  (ErrAssignment) Designator EQUAL error SEMI
+//			  {: parser.log.debug("Uspesan oporavak od greske pri dodeli vrednosti."); :}
+//			  |
+//			  (PrintStmt) PRINT LPAREN Expr RPAREN SEMI 
+//			  |
+//			  (ReturnExpr) RETURN Expr:t SEMI
+//			  |
+//			  (ReturnNoExpr) RETURN SEMI
+//			  | 
+//			  (MatchedIf) IF Expr Matched ELSE Matched
+//			  |
+//			  (ProcCall) Designator:func LPAREN ActualPars RPAREN SEMI
+//			  ;
+			  
+//Expr ::= (AddExpr) Expr:te AddOp Term:t
+//		 |
+//		 (TermExpr) Term:t
+//		 ;
+		   	 
+Condition ::= (Condition) CondTerm CondTermOrList
+			;
+				    
+CondTermOrList ::= (ManyCondTermOrList) CondTermOrList OR CondTerm
+					|
+					(NoCondTermOrList)
+					;
+			
+CondTerm ::= (CondTerm) CondFact CondFactAndList
+			;
+			
+CondFactAndList ::= (ManyCondFactAndList) CondFactAndList AND CondFact
+				    |
+				    (NoCondFactAndList)	
+				    ;
+
+CondFact ::= (CondFactBase) AddExpr // proveriti da li je bool tipa
+		   	 |
+		   	 (CondFactRelOp) AddExpr RelOp AddExpr
+		   	 ;
+
+Expr ::= (ExprAdd) AddExpr // .struct = AddExpr.struct
+		 |
+		 (ExprCondition) CondFact QMARK Expr Colon Expr // .struct = Expr.struct
+		 ;
+Colon ::=(Colon) COLON;		 
+		 
+AddExpr ::= (AddExpression) AddExpr AddOp Term // odradjeno
+		   |
+		   (NegativeAddExpression) OptMinus Term  // .struct = Term.struct ako nema -, a ako ima onda kao OptAddTerms samo za jedan operand
+		   ;
+
+OptMinus ::= (OptMinusExpr) MINUS 
+			 |
+			 (NoOptMinusExpr)
+			 ;
+		
+Term ::= (TermMulOpFactor) Term MulOp Factor // analogno kao OptAddTerms // Veci prioritet u odnosu na AddOp
+		 |
+		 (TermBase) Factor // .struct = Factor.struct
+		 ;
+
+Factor ::=  (VarFactor) Designator OptActParsWithParens // .struct = Designator.obj.getType()
+		    |
+   			(NumFactor) NUMCONST // .struct = Tab.intType
+			|
+			(CharFactor) CHARCONST // .struct = Tab.charType
+			|
+			(ExprFactor) LPAREN Expr RPAREN // .struct = Expr.struct
+			|
+			(BoolFactor) BOOLCONST // .struct = boolType
+			|
+		    (ArgObjCreatingFactor) NEW Type LBRACKET Expr RBRACKET // .struct = new Struct(Struct.Array, currentType)
+		    |
+		    (BaseObjCreatingFactor) NEW Type // ne treba
+		   ;
+
+OptActParsWithParens ::= (SingleOptActParsWithParens) LPAREN OptActPars RPAREN
+						 |
+						 (NoOptActParrenWithParens)
+						 ;
+						 
+ActualPars ::= (Actuals) ActualParamList 
+				| 
+			   (NoActuals) /* epsilon */ 
+			   ;
+			   
+ActualParamList ::= (ActualParams) ActualParamList COMMA Expr
+					|
+					(ActualParam) Expr
+					;
+
+Designator ::= (ClassAccessDesignator) Designator DOT IDENT
+			  |
+			  (ArrayAccessDesignator) DesignatorArray LBRACKET Expr RBRACKET
+		      |
+			  (BaseDesignator) IDENT:name
+			  ;
+
+DesignatorArray ::= (DesignatorArray) Designator;
+
+AddOp ::= (AddOpPlus) PLUS 
+		  |
+		  (AddOpMinus) MINUS
+		  ;
+MulOp ::= (MulOpMul) MUL
+		  |
+		  (MulOpDiv) DIV
+		  |
+		  (MulOpMod) MOD
+		  ;
+RelOp ::= (EqualsOp) EQUALS
+		  |
+		  (NotEqualsOp) NOT_EQUALS
+		  |
+		  (MoreOp) MORE
+		  |
+		  (MoreEqualOp) MORE_EQUAL
+		  |
+		  (LessOp) LESS
+		  |
+		  (LessEqualOp) LESS_EQUAL
+		  ;
+AssignOp ::= EQUAL
+			;

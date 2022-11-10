@@ -1,0 +1,69 @@
+INFO  23:45:18,051 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\projekat_final\workspace\MJCompiler\test\program.mj
+INFO  23:45:18,120 - #2 program
+INFO  23:45:18,120 - #47 test301
+INFO  23:45:18,120 - #13 const
+INFO  23:45:18,120 - #47 int
+INFO  23:45:18,120 - #47 nula
+INFO  23:45:18,120 - #11 =
+INFO  23:45:18,120 - #46 0
+INFO  23:45:18,120 - #5 ;
+INFO  23:45:18,120 - #13 const
+INFO  23:45:18,120 - #47 int
+INFO  23:45:18,120 - #47 jedan
+INFO  23:45:18,120 - #11 =
+INFO  23:45:18,120 - #46 1
+INFO  23:45:18,120 - #5 ;
+INFO  23:45:18,120 - #13 const
+INFO  23:45:18,120 - #47 int
+INFO  23:45:18,120 - #47 pet
+INFO  23:45:18,120 - #11 =
+INFO  23:45:18,120 - #46 5
+INFO  23:45:18,120 - #5 ;
+INFO  23:45:18,120 - #47 int
+INFO  23:45:18,120 - #47 niz
+INFO  23:45:18,120 - #15 [
+INFO  23:45:18,120 - #14 ]
+INFO  23:45:18,120 - #5 ;
+INFO  23:45:18,120 - #47 char
+INFO  23:45:18,120 - #47 nizch
+INFO  23:45:18,120 - #15 [
+INFO  23:45:18,120 - #14 ]
+INFO  23:45:18,120 - #5 ;
+INFO  23:45:18,120 - #3 {
+INFO  23:45:18,120 - #12 void
+INFO  23:45:18,120 - #47 main
+INFO  23:45:18,120 - #6 (
+INFO  23:45:18,120 - #7 )
+INFO  23:45:18,120 - #47 int
+INFO  23:45:18,120 - #47 bodovi
+INFO  23:45:18,120 - #5 ;
+INFO  23:45:18,120 - #47 bool
+INFO  23:45:18,120 - #47 bt
+INFO  23:45:18,135 - #5 ;
+INFO  23:45:18,135 - #47 int
+INFO  23:45:18,135 - #47 a
+INFO  23:45:18,135 - #8 ,
+INFO  23:45:18,135 - #47 b
+INFO  23:45:18,135 - #8 ,
+INFO  23:45:18,135 - #47 c
+INFO  23:45:18,135 - #5 ;
+INFO  23:45:18,135 - #3 {
+INFO  23:45:18,135 - #47 bodovi
+INFO  23:45:18,135 - #11 =
+INFO  23:45:18,135 - #47 niz
+INFO  23:45:18,135 - #28 >
+INFO  23:45:18,135 - #47 niz
+INFO  23:45:18,135 - #32 ?
+INFO  23:45:18,135 - #49 c
+INFO  23:45:18,135 - #33 :
+INFO  23:45:18,135 - #46 4
+INFO  23:45:18,135 - #5 ;
+INFO  23:45:18,151 - #4 }
+INFO  23:45:18,151 - #4 }
+INFO  23:45:18,182 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 18
+INFO  23:45:18,182 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 18
+INFO  23:45:18,182 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 18
+ERROR 23:45:18,182 - Relacioni operator > nije podrzan za nizove na liniji 9
+ERROR 23:45:18,182 - Izrazi za dodelu vrednosti moraju biti istog tipa na liniji 18
+ERROR 23:45:18,182 - Tip izraza nije kompatibilan pri dodeli vrednosti sa tipom  destinacionog objekta kojem se dodeljuje na liniji 18
+ERROR 23:45:18,182 - Parsiranje NIJE uspesno zavrseno!

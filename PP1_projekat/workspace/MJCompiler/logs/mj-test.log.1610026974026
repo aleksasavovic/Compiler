@@ -1,0 +1,77 @@
+INFO  14:42:41,147 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  14:42:41,211 - #2 program
+INFO  14:42:41,211 - #47 test301
+INFO  14:42:41,211 - #13 const
+INFO  14:42:41,213 - #47 int
+INFO  14:42:41,213 - #47 jedan
+INFO  14:42:41,214 - #11 =
+INFO  14:42:41,214 - #46 1
+INFO  14:42:41,214 - #5 ;
+INFO  14:42:41,214 - #13 const
+INFO  14:42:41,216 - #47 int
+INFO  14:42:41,216 - #47 pet
+INFO  14:42:41,216 - #11 =
+INFO  14:42:41,216 - #46 5
+INFO  14:42:41,216 - #5 ;
+INFO  14:42:41,216 - #13 const
+INFO  14:42:41,217 - #47 char
+INFO  14:42:41,217 - #47 sel
+INFO  14:42:41,217 - #11 =
+INFO  14:42:41,217 - #49 c
+INFO  14:42:41,217 - #5 ;
+INFO  14:42:41,267 - #47 char
+INFO  14:42:41,267 - #47 pom
+INFO  14:42:41,268 - #5 ;
+INFO  14:42:41,268 - #47 int
+INFO  14:42:41,269 - #47 niz
+INFO  14:42:41,269 - #15 [
+INFO  14:42:41,270 - #14 ]
+INFO  14:42:41,270 - #8 ,
+INFO  14:42:41,270 - #47 num
+INFO  14:42:41,270 - #5 ;
+INFO  14:42:41,271 - #47 char
+INFO  14:42:41,271 - #47 nizch
+INFO  14:42:41,271 - #15 [
+INFO  14:42:41,271 - #14 ]
+INFO  14:42:41,272 - #8 ,
+INFO  14:42:41,272 - #47 c
+INFO  14:42:41,272 - #5 ;
+INFO  14:42:41,272 - #3 {
+INFO  14:42:41,272 - #47 int
+INFO  14:42:41,274 - #47 al
+INFO  14:42:41,274 - #6 (
+INFO  14:42:41,275 - #7 )
+INFO  14:42:41,277 - #3 {
+INFO  14:42:41,278 - #36 return
+INFO  14:42:41,280 - #47 c
+INFO  14:42:41,282 - #5 ;
+INFO  14:42:41,284 - #4 }
+INFO  14:42:41,285 - #12 void
+INFO  14:42:41,286 - #47 main
+INFO  14:42:41,286 - #6 (
+INFO  14:42:41,287 - #7 )
+INFO  14:42:41,287 - #3 {
+INFO  14:42:41,287 - #47 num
+INFO  14:42:41,287 - #11 =
+INFO  14:42:41,287 - #48 true
+INFO  14:42:41,289 - #32 ?
+INFO  14:42:41,289 - #46 3
+INFO  14:42:41,289 - #33 :
+INFO  14:42:41,289 - #49 c
+INFO  14:42:41,298 - #5 ;
+INFO  14:42:41,298 - #47 niz
+INFO  14:42:41,298 - #15 [
+INFO  14:42:41,299 - #46 2
+INFO  14:42:41,299 - #14 ]
+INFO  14:42:41,299 - #11 =
+INFO  14:42:41,299 - #19 -
+INFO  14:42:41,299 - #47 num
+INFO  14:42:41,300 - #5 ;
+INFO  14:42:41,300 - #4 }
+INFO  14:42:41,300 - #4 }
+INFO  14:42:41,331 - Detektovano koriscenje globalne promenljive Var c: char, 4, 0  na liniji 19
+ERROR 14:42:41,332 - tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije al na liniji 2
+INFO  14:42:41,332 - Detektovano koriscenje globalne promenljive Var num: int, 2, 0  na liniji 22
+INFO  14:42:41,332 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 1, 0  na liniji 25
+INFO  14:42:41,332 - Detektovano koriscenje globalne promenljive Var num: int, 2, 0  na liniji 25
+ERROR 14:42:41,333 - Parsiranje NIJE uspesno zavrseno!

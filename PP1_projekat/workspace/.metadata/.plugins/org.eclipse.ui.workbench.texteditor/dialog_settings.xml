@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="i operator" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="i operator"/>
+			<item value="bodovi = niz&gt;niz ? &apos;c&apos; : 4;"/>
+			<item value="Izrazi za dodelu vredn"/>
+			<item value=" Izrazi za dodelu vrednosti moraju biti istog tipa na lini"/>
+			<item value="CondFactRelOp"/>
+			<item value="zrazi za proveru uslova nisu kompatibilni"/>
+			<item value="u izrazu za sabiranje"/>
+			<item value="Print"/>
+			<item value="minus"/>
+			<item value="Nekompatibilni tipovi u izrazu za sabiranje"/>
+			<item value="condfactrelop"/>
+			<item value="argument print"/>
+			<item value="returnExpr"/>
+			<item value="tip izraza u return"/>
+			<item value="designator"/>
+		</list>
+		<list key="replacehistory">
+			<item value="COLON"/>
+			<item value="ExprCommaList"/>
+			<item value="ComplexDesignator"/>
+			<item value="MethodDeclList"/>
+			<item value=""/>
+			<item value="VarDeclBase"/>
+			<item value="VarDeclBaseList"/>
+			<item value="VarDeclList"/>
+			<item value="varDeclList"/>
+			<item value="AddOp"/>
+			<item value="RPAREN"/>
+			<item value="LPAREN"/>
+			<item value="ClassMethodList"/>
+			<item value="OptMethodDecl"/>
+			<item value="ClassMethods"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="827" key="DIALOG_X_ORIGIN"/>
+		<item value="290" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

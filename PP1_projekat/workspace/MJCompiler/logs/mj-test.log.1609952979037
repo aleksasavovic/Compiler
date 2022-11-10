@@ -1,0 +1,45 @@
+INFO  18:09:12,920 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  18:09:13,006 - #2 program
+INFO  18:09:13,006 - #47 test301
+INFO  18:09:13,006 - #13 const
+INFO  18:09:13,008 - #47 int
+INFO  18:09:13,008 - #47 nula
+INFO  18:09:13,010 - #11 =
+INFO  18:09:13,010 - #46 0
+INFO  18:09:13,010 - #5 ;
+INFO  18:09:13,011 - #13 const
+INFO  18:09:13,012 - #47 int
+INFO  18:09:13,012 - #47 jedan
+INFO  18:09:13,013 - #11 =
+INFO  18:09:13,013 - #46 1
+INFO  18:09:13,013 - #5 ;
+INFO  18:09:13,013 - #13 const
+INFO  18:09:13,013 - #47 int
+INFO  18:09:13,013 - #47 pet
+INFO  18:09:13,014 - #11 =
+INFO  18:09:13,014 - #46 5
+INFO  18:09:13,014 - #5 ;
+INFO  18:09:13,014 - #47 int
+INFO  18:09:13,014 - #47 niz
+INFO  18:09:13,014 - #15 [
+INFO  18:09:13,015 - #14 ]
+INFO  18:09:13,015 - #5 ;
+INFO  18:09:13,015 - #47 char
+INFO  18:09:13,015 - #47 nizch
+INFO  18:09:13,016 - #15 [
+INFO  18:09:13,016 - #14 ]
+INFO  18:09:13,016 - #5 ;
+INFO  18:09:13,016 - #3 {
+INFO  18:09:13,016 - #12 void
+INFO  18:09:13,017 - #47 main
+INFO  18:09:13,017 - #6 (
+INFO  18:09:13,017 - #7 )
+INFO  18:09:13,018 - #3 {
+INFO  18:09:13,019 - #47 deset
+INFO  18:09:13,020 - #11 =
+INFO  18:09:13,020 - #46 3
+INFO  18:09:13,023 - #5 ;
+INFO  18:09:13,024 - #4 }
+INFO  18:09:13,024 - #4 }
+ERROR 18:09:13,052 - Greska na liniji 18 : ime deset nije deklarisano! 
+ERROR 18:09:13,053 - Parsiranje NIJE uspesno zavrseno!

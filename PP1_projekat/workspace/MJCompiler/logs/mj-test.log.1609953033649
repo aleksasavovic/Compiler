@@ -1,0 +1,47 @@
+INFO  18:10:20,789 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  18:10:20,867 - #2 program
+INFO  18:10:20,867 - #47 test301
+INFO  18:10:20,867 - #13 const
+INFO  18:10:20,869 - #47 int
+INFO  18:10:20,869 - #47 nula
+INFO  18:10:20,870 - #11 =
+INFO  18:10:20,870 - #46 0
+INFO  18:10:20,870 - #5 ;
+INFO  18:10:20,871 - #13 const
+INFO  18:10:20,872 - #47 int
+INFO  18:10:20,872 - #47 jedan
+INFO  18:10:20,872 - #11 =
+INFO  18:10:20,873 - #46 1
+INFO  18:10:20,873 - #5 ;
+INFO  18:10:20,873 - #13 const
+INFO  18:10:20,873 - #47 int
+INFO  18:10:20,873 - #47 pet
+INFO  18:10:20,873 - #11 =
+INFO  18:10:20,873 - #46 5
+INFO  18:10:20,873 - #5 ;
+INFO  18:10:20,875 - #47 int
+INFO  18:10:20,875 - #47 niz
+INFO  18:10:20,876 - #15 [
+INFO  18:10:20,876 - #14 ]
+INFO  18:10:20,876 - #8 ,
+INFO  18:10:20,876 - #47 num
+INFO  18:10:20,876 - #5 ;
+INFO  18:10:20,877 - #47 char
+INFO  18:10:20,877 - #47 nizch
+INFO  18:10:20,877 - #15 [
+INFO  18:10:20,877 - #14 ]
+INFO  18:10:20,877 - #5 ;
+INFO  18:10:20,877 - #3 {
+INFO  18:10:20,878 - #12 void
+INFO  18:10:20,879 - #47 main
+INFO  18:10:20,879 - #6 (
+INFO  18:10:20,879 - #7 )
+INFO  18:10:20,880 - #3 {
+INFO  18:10:20,881 - #47 c
+INFO  18:10:20,881 - #11 =
+INFO  18:10:20,882 - #49 p
+INFO  18:10:20,884 - #5 ;
+INFO  18:10:20,885 - #4 }
+INFO  18:10:20,886 - #4 }
+ERROR 18:10:20,916 - Greska na liniji 18 : ime c nije deklarisano! 
+ERROR 18:10:20,917 - Parsiranje NIJE uspesno zavrseno!

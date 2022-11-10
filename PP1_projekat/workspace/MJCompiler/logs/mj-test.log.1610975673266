@@ -1,0 +1,71 @@
+INFO  18:54:43,424 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\projekat_final\workspace\MJCompiler\test\program.mj
+INFO  18:54:43,490 - #2 program
+INFO  18:54:43,490 - #47 test301
+INFO  18:54:43,490 - #13 const
+INFO  18:54:43,490 - #47 int
+INFO  18:54:43,490 - #47 nula
+INFO  18:54:43,490 - #11 =
+INFO  18:54:43,490 - #46 0
+INFO  18:54:43,490 - #5 ;
+INFO  18:54:43,490 - #13 const
+INFO  18:54:43,490 - #47 int
+INFO  18:54:43,490 - #47 jedan
+INFO  18:54:43,490 - #11 =
+INFO  18:54:43,490 - #46 1
+INFO  18:54:43,490 - #5 ;
+INFO  18:54:43,490 - #13 const
+INFO  18:54:43,490 - #47 int
+INFO  18:54:43,490 - #47 pet
+INFO  18:54:43,490 - #11 =
+INFO  18:54:43,490 - #46 5
+INFO  18:54:43,490 - #5 ;
+INFO  18:54:43,490 - #47 int
+INFO  18:54:43,490 - #47 niz
+INFO  18:54:43,490 - #15 [
+INFO  18:54:43,490 - #14 ]
+INFO  18:54:43,490 - #5 ;
+INFO  18:54:43,490 - #47 char
+INFO  18:54:43,490 - #47 nizch
+INFO  18:54:43,490 - #15 [
+INFO  18:54:43,490 - #14 ]
+INFO  18:54:43,490 - #5 ;
+INFO  18:54:43,490 - #3 {
+INFO  18:54:43,490 - #12 void
+INFO  18:54:43,490 - #47 main
+INFO  18:54:43,490 - #6 (
+INFO  18:54:43,490 - #7 )
+INFO  18:54:43,490 - #47 int
+INFO  18:54:43,490 - #47 bodovi
+INFO  18:54:43,490 - #5 ;
+INFO  18:54:43,490 - #47 bool
+INFO  18:54:43,490 - #47 bt
+INFO  18:54:43,490 - #5 ;
+INFO  18:54:43,490 - #47 int
+INFO  18:54:43,490 - #47 a
+INFO  18:54:43,490 - #8 ,
+INFO  18:54:43,490 - #47 b
+INFO  18:54:43,490 - #8 ,
+INFO  18:54:43,490 - #47 c
+INFO  18:54:43,490 - #5 ;
+INFO  18:54:43,490 - #3 {
+INFO  18:54:43,490 - #47 bodovi
+INFO  18:54:43,490 - #11 =
+INFO  18:54:43,504 - #46 1
+INFO  18:54:43,506 - #5 ;
+INFO  18:54:43,506 - #9 print
+INFO  18:54:43,507 - #6 (
+INFO  18:54:43,507 - #47 nula
+INFO  18:54:43,508 - #7 )
+INFO  18:54:43,508 - #5 ;
+INFO  18:54:43,508 - #9 print
+INFO  18:54:43,512 - #6 (
+INFO  18:54:43,513 - #47 bodovi
+INFO  18:54:43,513 - #7 )
+INFO  18:54:43,513 - #5 ;
+INFO  18:54:43,513 - #4 }
+INFO  18:54:43,513 - #4 }
+INFO  18:54:43,520 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 18
+INFO  18:54:43,520 - Detektovano koriscenje konstante Con nula: int, 0, 0  na liniji 19
+INFO  18:54:43,520 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 20
+INFO  18:54:43,520 - Generating bytecode file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\projekat_final\workspace\MJCompiler\test\program.obj
+INFO  18:54:43,520 - Parsiranje uspesno zavrseno!

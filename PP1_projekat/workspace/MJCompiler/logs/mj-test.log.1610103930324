@@ -1,0 +1,15 @@
+INFO  12:05:12,164 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  12:05:12,230 - #2 program
+INFO  12:05:12,230 - #47 test301
+INFO  12:05:12,230 - #47 int
+INFO  12:05:12,232 - #47 jedan
+INFO  12:05:12,233 - #8 ,
+INFO  12:05:12,233 - #47 dva
+INFO  12:05:12,233 - #5 ;
+INFO  12:05:12,233 - #13 const
+INFO  12:05:12,234 - #47 int
+INFO  12:05:12,234 - #47 cint
+INFO  12:05:12,234 - #5 ;
+ERROR 12:05:12,234 - 
+Sintaksna greska na liniji 10
+ERROR 12:05:12,234 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10

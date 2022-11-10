@@ -1,0 +1,55 @@
+INFO  11:51:02,018 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:51:02,094 - #2 program
+INFO  11:51:02,095 - #47 test301
+INFO  11:51:02,095 - #13 const
+INFO  11:51:02,096 - #47 int
+INFO  11:51:02,097 - #47 nula
+INFO  11:51:02,097 - #11 =
+INFO  11:51:02,098 - #48 true
+INFO  11:51:02,098 - #5 ;
+INFO  11:51:02,098 - #13 const
+INFO  11:51:02,099 - #47 int
+INFO  11:51:02,099 - #47 jedan
+INFO  11:51:02,100 - #11 =
+INFO  11:51:02,100 - #46 1
+INFO  11:51:02,100 - #5 ;
+INFO  11:51:02,100 - #13 const
+INFO  11:51:02,100 - #47 int
+INFO  11:51:02,100 - #47 pet
+INFO  11:51:02,100 - #11 =
+INFO  11:51:02,100 - #46 5
+INFO  11:51:02,101 - #5 ;
+INFO  11:51:02,102 - #47 int
+INFO  11:51:02,103 - #47 niz
+INFO  11:51:02,103 - #15 [
+INFO  11:51:02,103 - #14 ]
+INFO  11:51:02,103 - #8 ,
+INFO  11:51:02,103 - #47 num
+INFO  11:51:02,103 - #5 ;
+INFO  11:51:02,104 - #47 char
+INFO  11:51:02,104 - #47 nizch
+INFO  11:51:02,104 - #15 [
+INFO  11:51:02,104 - #14 ]
+INFO  11:51:02,104 - #8 ,
+INFO  11:51:02,104 - #47 c
+INFO  11:51:02,104 - #5 ;
+INFO  11:51:02,104 - #3 {
+INFO  11:51:02,105 - #12 void
+INFO  11:51:02,106 - #47 main
+INFO  11:51:02,106 - #6 (
+INFO  11:51:02,106 - #7 )
+INFO  11:51:02,106 - #3 {
+INFO  11:51:02,106 - #47 niz
+INFO  11:51:02,106 - #15 [
+INFO  11:51:02,106 - #46 2
+INFO  11:51:02,106 - #14 ]
+INFO  11:51:02,106 - #11 =
+INFO  11:51:02,106 - #19 -
+INFO  11:51:02,106 - #47 num
+INFO  11:51:02,106 - #5 ;
+INFO  11:51:02,106 - #4 }
+INFO  11:51:02,106 - #4 }
+ERROR 11:51:02,137 - Vrednost dodeljena konstanti nije tipa konstante na liniji 8
+INFO  11:51:02,137 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 18
+INFO  11:51:02,137 - Detektovano koriscenje globalne promenljive Var num: int, 1, 0  na liniji 18
+ERROR 11:51:02,137 - Parsiranje NIJE uspesno zavrseno!

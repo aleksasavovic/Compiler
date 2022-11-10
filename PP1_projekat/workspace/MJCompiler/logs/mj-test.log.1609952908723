@@ -1,0 +1,37 @@
+INFO  18:08:20,180 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  18:08:20,276 - #2 program
+INFO  18:08:20,276 - #47 test301
+INFO  18:08:20,277 - #13 const
+INFO  18:08:20,279 - #47 int
+INFO  18:08:20,279 - #47 nula
+INFO  18:08:20,280 - #11 =
+INFO  18:08:20,280 - #46 0
+INFO  18:08:20,280 - #5 ;
+INFO  18:08:20,280 - #13 const
+INFO  18:08:20,282 - #47 int
+INFO  18:08:20,282 - #47 jedan
+INFO  18:08:20,282 - #11 =
+INFO  18:08:20,282 - #46 1
+INFO  18:08:20,282 - #5 ;
+INFO  18:08:20,282 - #13 const
+INFO  18:08:20,282 - #47 int
+INFO  18:08:20,282 - #47 pet
+INFO  18:08:20,283 - #11 =
+INFO  18:08:20,283 - #46 5
+INFO  18:08:20,283 - #5 ;
+INFO  18:08:20,285 - #47 int
+INFO  18:08:20,285 - #47 niz
+INFO  18:08:20,285 - #15 [
+INFO  18:08:20,285 - #14 ]
+INFO  18:08:20,285 - #5 ;
+INFO  18:08:20,286 - #47 char
+INFO  18:08:20,286 - #47 nizch
+INFO  18:08:20,286 - #15 [
+INFO  18:08:20,286 - #14 ]
+INFO  18:08:20,286 - #5 ;
+INFO  18:08:20,286 - #3 {
+INFO  18:08:20,286 - #4 }
+INFO  18:08:20,287 - #4 }
+ERROR 18:08:20,287 - 
+Sintaksna greska na liniji 18
+ERROR 18:08:20,288 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 18

@@ -1,0 +1,57 @@
+INFO  11:37:54,172 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:37:54,238 - #2 program
+INFO  11:37:54,238 - #47 test301
+INFO  11:37:54,238 - #47 int
+INFO  11:37:54,240 - #47 jedan
+INFO  11:37:54,241 - #8 ,
+INFO  11:37:54,242 - #47 dva
+INFO  11:37:54,242 - #5 ;
+INFO  11:37:54,242 - #3 {
+INFO  11:37:54,242 - #47 int
+INFO  11:37:54,243 - #47 m1
+INFO  11:37:54,243 - #6 (
+INFO  11:37:54,244 - #7 )
+INFO  11:37:54,244 - #3 {
+INFO  11:37:54,245 - #4 }
+INFO  11:37:54,246 - #47 int
+INFO  11:37:54,247 - #47 m2
+INFO  11:37:54,247 - #6 (
+INFO  11:37:54,247 - #7 )
+INFO  11:37:54,247 - #3 {
+INFO  11:37:54,247 - #36 return
+INFO  11:37:54,248 - #5 ;
+INFO  11:37:54,249 - #4 }
+INFO  11:37:54,250 - #47 int
+INFO  11:37:54,250 - #47 m3
+INFO  11:37:54,250 - #6 (
+INFO  11:37:54,250 - #7 )
+INFO  11:37:54,250 - #3 {
+INFO  11:37:54,250 - #36 return
+INFO  11:37:54,250 - #46 3
+INFO  11:37:54,252 - #5 ;
+INFO  11:37:54,252 - #4 }
+INFO  11:37:54,252 - #12 void
+INFO  11:37:54,252 - #47 main
+INFO  11:37:54,253 - #6 (
+INFO  11:37:54,253 - #7 )
+INFO  11:37:54,253 - #3 {
+INFO  11:37:54,253 - #47 jedan
+INFO  11:37:54,253 - #11 =
+INFO  11:37:54,253 - #46 2
+INFO  11:37:54,254 - #5 ;
+INFO  11:37:54,255 - #47 jedan
+INFO  11:37:54,255 - #11 =
+INFO  11:37:54,255 - #46 25
+INFO  11:37:54,255 - #37 .
+ERROR 11:37:54,255 - 
+Sintaksna greska na liniji 22
+INFO  11:37:54,255 - #46 9
+INFO  11:37:54,255 - #5 ;
+INFO  11:37:54,255 - #4 }
+INFO  11:37:54,256 - #4 }
+ERROR 11:37:54,287 - : funkcija m1 nema return iskaz! na liniji 14
+ERROR 11:37:54,287 - Metoda m2 mora biti tipa void
+INFO  11:37:54,288 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 21
+INFO  11:37:54,288 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 22
+INFO  11:37:54,288 - Uspesan oporavak od sintaksne greske pri dodeli vrednosti  na liniji 22
+ERROR 11:37:54,289 - Parsiranje NIJE uspesno zavrseno!

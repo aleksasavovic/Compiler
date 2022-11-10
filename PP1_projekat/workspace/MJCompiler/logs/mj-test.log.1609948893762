@@ -1,0 +1,14 @@
+INFO  17:01:21,262 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  17:01:21,341 - #2 program
+INFO  17:01:21,341 - #47 test301
+INFO  17:01:21,342 - #3 {
+INFO  17:01:21,343 - #47 int
+INFO  17:01:21,344 - #47 main
+INFO  17:01:21,345 - #6 (
+INFO  17:01:21,345 - #7 )
+INFO  17:01:21,346 - #3 {
+INFO  17:01:21,347 - #4 }
+INFO  17:01:21,348 - #4 }
+ERROR 17:01:21,375 - : funkcija main nema return iskaz! na liniji 8
+ERROR 17:01:21,375 - Main mora biti tipa void
+ERROR 17:01:21,376 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,91 @@
+INFO  12:57:31,604 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  12:57:31,667 - #2 program
+INFO  12:57:31,667 - #47 test301
+INFO  12:57:31,667 - #13 const
+INFO  12:57:31,667 - #47 int
+INFO  12:57:31,667 - #47 jedan
+INFO  12:57:31,667 - #11 =
+INFO  12:57:31,667 - #46 1
+INFO  12:57:31,667 - #5 ;
+INFO  12:57:31,667 - #13 const
+INFO  12:57:31,667 - #47 int
+INFO  12:57:31,667 - #47 pet
+INFO  12:57:31,667 - #11 =
+INFO  12:57:31,667 - #46 5
+INFO  12:57:31,667 - #5 ;
+INFO  12:57:31,667 - #13 const
+INFO  12:57:31,667 - #47 char
+INFO  12:57:31,667 - #47 sel
+INFO  12:57:31,667 - #11 =
+INFO  12:57:31,667 - #49 c
+INFO  12:57:31,667 - #5 ;
+INFO  12:57:31,667 - #47 char
+INFO  12:57:31,667 - #47 pom
+INFO  12:57:31,667 - #5 ;
+INFO  12:57:31,667 - #47 int
+INFO  12:57:31,667 - #47 niz
+INFO  12:57:31,667 - #15 [
+INFO  12:57:31,667 - #14 ]
+INFO  12:57:31,667 - #8 ,
+INFO  12:57:31,667 - #47 num
+INFO  12:57:31,683 - #5 ;
+INFO  12:57:31,683 - #47 char
+INFO  12:57:31,683 - #47 nizch
+INFO  12:57:31,683 - #15 [
+INFO  12:57:31,683 - #14 ]
+INFO  12:57:31,683 - #8 ,
+INFO  12:57:31,683 - #47 c
+INFO  12:57:31,683 - #5 ;
+INFO  12:57:31,683 - #3 {
+INFO  12:57:31,683 - #47 int
+INFO  12:57:31,683 - #47 al
+INFO  12:57:31,683 - #6 (
+INFO  12:57:31,683 - #7 )
+INFO  12:57:31,683 - #3 {
+INFO  12:57:31,683 - #36 return
+INFO  12:57:31,683 - #47 jedan
+INFO  12:57:31,683 - #5 ;
+INFO  12:57:31,683 - #4 }
+INFO  12:57:31,683 - #12 void
+INFO  12:57:31,683 - #47 main
+INFO  12:57:31,683 - #6 (
+INFO  12:57:31,683 - #7 )
+INFO  12:57:31,683 - #3 {
+INFO  12:57:31,683 - #47 num
+INFO  12:57:31,683 - #23 ++
+INFO  12:57:31,683 - #5 ;
+INFO  12:57:31,683 - #47 num
+INFO  12:57:31,683 - #24 --
+INFO  12:57:31,683 - #5 ;
+INFO  12:57:31,683 - #47 niz
+INFO  12:57:31,698 - #15 [
+INFO  12:57:31,698 - #46 1
+INFO  12:57:31,698 - #14 ]
+INFO  12:57:31,698 - #23 ++
+INFO  12:57:31,698 - #5 ;
+INFO  12:57:31,698 - #9 print
+INFO  12:57:31,698 - #6 (
+INFO  12:57:31,698 - #47 niz
+INFO  12:57:31,698 - #8 ,
+INFO  12:57:31,698 - #46 4
+INFO  12:57:31,698 - #7 )
+INFO  12:57:31,698 - #5 ;
+INFO  12:57:31,698 - #47 niz
+INFO  12:57:31,698 - #15 [
+INFO  12:57:31,698 - #46 2
+INFO  12:57:31,698 - #14 ]
+INFO  12:57:31,698 - #11 =
+INFO  12:57:31,698 - #19 -
+INFO  12:57:31,698 - #47 num
+INFO  12:57:31,698 - #5 ;
+INFO  12:57:31,698 - #4 }
+INFO  12:57:31,698 - #4 }
+INFO  12:57:31,729 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 19
+INFO  12:57:31,729 - Detektovano koriscenje globalne promenljive Var num: int, 2, 0  na liniji 22
+INFO  12:57:31,729 - Detektovano koriscenje globalne promenljive Var num: int, 2, 0  na liniji 23
+INFO  12:57:31,729 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 1, 0  na liniji 24
+INFO  12:57:31,729 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 1, 0  na liniji 26
+ERROR 12:57:31,729 - Prvi argument print funkcije mora biti tipa int char ili bool na liniji 7
+INFO  12:57:31,729 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 1, 0  na liniji 27
+INFO  12:57:31,729 - Detektovano koriscenje globalne promenljive Var num: int, 2, 0  na liniji 27
+ERROR 12:57:31,729 - Parsiranje NIJE uspesno zavrseno!

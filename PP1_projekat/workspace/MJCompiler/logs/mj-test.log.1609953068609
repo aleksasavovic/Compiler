@@ -1,0 +1,51 @@
+INFO  18:10:46,932 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  18:10:47,026 - #2 program
+INFO  18:10:47,026 - #47 test301
+INFO  18:10:47,026 - #13 const
+INFO  18:10:47,028 - #47 int
+INFO  18:10:47,028 - #47 nula
+INFO  18:10:47,029 - #11 =
+INFO  18:10:47,029 - #46 0
+INFO  18:10:47,029 - #5 ;
+INFO  18:10:47,030 - #13 const
+INFO  18:10:47,031 - #47 int
+INFO  18:10:47,031 - #47 jedan
+INFO  18:10:47,031 - #11 =
+INFO  18:10:47,031 - #46 1
+INFO  18:10:47,031 - #5 ;
+INFO  18:10:47,032 - #13 const
+INFO  18:10:47,032 - #47 int
+INFO  18:10:47,032 - #47 pet
+INFO  18:10:47,032 - #11 =
+INFO  18:10:47,032 - #46 5
+INFO  18:10:47,032 - #5 ;
+INFO  18:10:47,034 - #47 int
+INFO  18:10:47,034 - #47 niz
+INFO  18:10:47,035 - #15 [
+INFO  18:10:47,035 - #14 ]
+INFO  18:10:47,035 - #8 ,
+INFO  18:10:47,035 - #47 num
+INFO  18:10:47,035 - #5 ;
+INFO  18:10:47,036 - #47 char
+INFO  18:10:47,036 - #47 nizch
+INFO  18:10:47,036 - #15 [
+INFO  18:10:47,036 - #14 ]
+INFO  18:10:47,036 - #8 ,
+INFO  18:10:47,036 - #47 c
+INFO  18:10:47,036 - #5 ;
+INFO  18:10:47,036 - #3 {
+INFO  18:10:47,037 - #12 void
+INFO  18:10:47,037 - #47 main
+INFO  18:10:47,038 - #6 (
+INFO  18:10:47,038 - #7 )
+INFO  18:10:47,039 - #3 {
+INFO  18:10:47,040 - #47 c
+INFO  18:10:47,040 - #11 =
+INFO  18:10:47,041 - #19 -
+INFO  18:10:47,042 - #49 p
+INFO  18:10:47,044 - #5 ;
+INFO  18:10:47,044 - #4 }
+INFO  18:10:47,045 - #4 }
+INFO  18:10:47,078 - Detektovano koriscenje globalne promenljive Var c: char, 3, 0  na liniji 18
+ERROR 18:10:47,078 - Operator - mora stajati uz int na liniji 18
+ERROR 18:10:47,079 - Parsiranje NIJE uspesno zavrseno!

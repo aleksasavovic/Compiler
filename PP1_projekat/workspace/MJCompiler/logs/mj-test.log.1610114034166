@@ -1,0 +1,52 @@
+INFO  14:53:18,841 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  14:53:18,877 - #2 program
+INFO  14:53:18,877 - #47 test301
+INFO  14:53:18,877 - #47 int
+INFO  14:53:18,878 - #47 jedan
+INFO  14:53:18,879 - #8 ,
+INFO  14:53:18,879 - #47 dva
+INFO  14:53:18,879 - #15 [
+INFO  14:53:18,879 - #14 ]
+INFO  14:53:18,879 - #5 ;
+INFO  14:53:18,879 - #13 const
+INFO  14:53:18,879 - #47 int
+INFO  14:53:18,880 - #47 cint
+INFO  14:53:18,880 - #11 =
+INFO  14:53:18,880 - #46 10
+INFO  14:53:18,880 - #5 ;
+INFO  14:53:18,880 - #47 char
+INFO  14:53:18,881 - #47 c
+INFO  14:53:18,881 - #5 ;
+INFO  14:53:18,881 - #47 bool
+INFO  14:53:18,881 - #47 b
+INFO  14:53:18,883 - #5 ;
+INFO  14:53:18,883 - #3 {
+INFO  14:53:18,883 - #12 void
+INFO  14:53:18,884 - #47 main
+INFO  14:53:18,884 - #6 (
+INFO  14:53:18,884 - #7 )
+INFO  14:53:18,885 - #3 {
+INFO  14:53:18,885 - #47 jedan
+INFO  14:53:18,886 - #11 =
+INFO  14:53:18,886 - #19 -
+INFO  14:53:18,887 - #47 jedan
+INFO  14:53:18,888 - #10 +
+INFO  14:53:18,889 - #46 3
+INFO  14:53:18,889 - #19 -
+INFO  14:53:18,890 - #46 3
+INFO  14:53:18,890 - #5 ;
+INFO  14:53:18,890 - #47 jedan
+INFO  14:53:18,891 - #11 =
+INFO  14:53:18,891 - #47 dva
+INFO  14:53:18,891 - #15 [
+INFO  14:53:18,892 - #48 true
+INFO  14:53:18,892 - #14 ]
+INFO  14:53:18,892 - #5 ;
+INFO  14:53:18,892 - #4 }
+INFO  14:53:18,892 - #4 }
+INFO  14:53:18,907 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 19
+INFO  14:53:18,907 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 19
+INFO  14:53:18,907 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 20
+INFO  14:53:18,907 - Detektovano koriscenje globalne promenljive Var dva: Arr of int, 1, 0  na liniji 20
+ERROR 14:53:18,908 - Argument za inicijalizaciju niza mora biti int na liniji 20
+ERROR 14:53:18,908 - Parsiranje NIJE uspesno zavrseno!

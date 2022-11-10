@@ -1,0 +1,66 @@
+INFO  23:33:11,510 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\projekat_final\workspace\MJCompiler\test\program.mj
+INFO  23:33:11,628 - #2 program
+INFO  23:33:11,628 - #47 test301
+INFO  23:33:11,628 - #13 const
+INFO  23:33:11,629 - #47 int
+INFO  23:33:11,630 - #47 nula
+INFO  23:33:11,630 - #11 =
+INFO  23:33:11,630 - #46 0
+INFO  23:33:11,630 - #5 ;
+INFO  23:33:11,631 - #13 const
+INFO  23:33:11,632 - #47 int
+INFO  23:33:11,632 - #47 jedan
+INFO  23:33:11,632 - #11 =
+INFO  23:33:11,633 - #46 1
+INFO  23:33:11,633 - #5 ;
+INFO  23:33:11,633 - #13 const
+INFO  23:33:11,634 - #47 int
+INFO  23:33:11,634 - #47 pet
+INFO  23:33:11,634 - #11 =
+INFO  23:33:11,635 - #46 5
+INFO  23:33:11,637 - #5 ;
+INFO  23:33:11,641 - #47 int
+INFO  23:33:11,642 - #47 niz
+INFO  23:33:11,642 - #15 [
+INFO  23:33:11,642 - #14 ]
+INFO  23:33:11,642 - #5 ;
+INFO  23:33:11,642 - #47 char
+INFO  23:33:11,643 - #47 nizch
+INFO  23:33:11,643 - #15 [
+INFO  23:33:11,643 - #14 ]
+INFO  23:33:11,643 - #5 ;
+INFO  23:33:11,643 - #3 {
+INFO  23:33:11,643 - #12 void
+INFO  23:33:11,645 - #47 main
+INFO  23:33:11,645 - #6 (
+INFO  23:33:11,645 - #7 )
+INFO  23:33:11,646 - #47 int
+INFO  23:33:11,647 - #47 bodovi
+INFO  23:33:11,647 - #5 ;
+INFO  23:33:11,648 - #47 bool
+INFO  23:33:11,648 - #47 bt
+INFO  23:33:11,648 - #5 ;
+INFO  23:33:11,648 - #47 int
+INFO  23:33:11,648 - #47 a
+INFO  23:33:11,648 - #8 ,
+INFO  23:33:11,649 - #47 b
+INFO  23:33:11,649 - #8 ,
+INFO  23:33:11,649 - #47 c
+INFO  23:33:11,649 - #5 ;
+INFO  23:33:11,650 - #3 {
+INFO  23:33:11,650 - #47 bodovi
+INFO  23:33:11,651 - #11 =
+INFO  23:33:11,651 - #47 a
+INFO  23:33:11,653 - #28 >
+INFO  23:33:11,654 - #49 b
+INFO  23:33:11,658 - #32 ?
+INFO  23:33:11,659 - #46 3
+INFO  23:33:11,659 - #33 :
+INFO  23:33:11,660 - #46 4
+INFO  23:33:11,662 - #5 ;
+INFO  23:33:11,666 - #4 }
+INFO  23:33:11,667 - #4 }
+INFO  23:33:11,688 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 18
+INFO  23:33:11,688 - Detektovano koriscenje lokalne promenljive Var a: int, 2, 1  na liniji 18
+ERROR 23:33:11,688 - Izrazi za proveru uslova nisu kompatibilni na liniji 9
+ERROR 23:33:11,689 - Parsiranje NIJE uspesno zavrseno!

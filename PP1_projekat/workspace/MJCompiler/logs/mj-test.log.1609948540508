@@ -1,0 +1,14 @@
+INFO  16:55:15,568 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  16:55:15,667 - #2 program
+INFO  16:55:15,667 - #47 test301
+INFO  16:55:15,668 - #3 {
+INFO  16:55:15,670 - #47 int
+INFO  16:55:15,671 - #47 main
+INFO  16:55:15,673 - #6 (
+INFO  16:55:15,673 - #7 )
+INFO  16:55:15,674 - #3 {
+INFO  16:55:15,675 - #4 }
+INFO  16:55:15,677 - #4 }
+ERROR 16:55:15,705 - : funkcija main nema return iskaz! na liniji 7
+ERROR 16:55:15,705 - Metoda main nije definisana
+ERROR 16:55:15,706 - Parsiranje NIJE uspesno zavrseno!

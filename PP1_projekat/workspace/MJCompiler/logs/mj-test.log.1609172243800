@@ -1,0 +1,17 @@
+INFO  17:16:17,303 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  17:16:17,350 - #2 program
+INFO  17:16:17,350 - #38 test301
+INFO  17:16:17,351 - #18 class
+INFO  17:16:17,352 - #38 ProbaKlasa
+INFO  17:16:17,352 - #17 extends
+INFO  17:16:17,352 - #38 ProbaKlasa2
+INFO  17:16:17,352 - #3 {
+INFO  17:16:17,353 - #4 }
+INFO  17:16:17,355 - #3 {
+INFO  17:16:17,355 - #13 void
+INFO  17:16:17,356 - #38 main
+INFO  17:16:17,356 - #6 (
+INFO  17:16:17,356 - #7 )
+INFO  17:16:17,357 - #3 {
+INFO  17:16:17,357 - #4 }
+INFO  17:16:17,358 - #4 }

@@ -1,0 +1,48 @@
+INFO  11:49:57,941 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:49:58,010 - #2 program
+INFO  11:49:58,010 - #47 test301
+INFO  11:49:58,010 - #47 int
+INFO  11:49:58,013 - #47 jedan
+INFO  11:49:58,014 - #8 ,
+INFO  11:49:58,014 - #47 dva
+INFO  11:49:58,015 - #5 ;
+INFO  11:49:58,015 - #3 {
+INFO  11:49:58,015 - #47 bool
+INFO  11:49:58,016 - #47 m1
+INFO  11:49:58,017 - #6 (
+INFO  11:49:58,017 - #7 )
+INFO  11:49:58,018 - #3 {
+INFO  11:49:58,018 - #4 }
+INFO  11:49:58,019 - #47 int
+INFO  11:49:58,021 - #47 m2
+INFO  11:49:58,021 - #6 (
+INFO  11:49:58,021 - #7 )
+INFO  11:49:58,021 - #3 {
+INFO  11:49:58,021 - #36 return
+INFO  11:49:58,023 - #5 ;
+INFO  11:49:58,023 - #4 }
+INFO  11:49:58,024 - #47 bool
+INFO  11:49:58,024 - #47 m3
+INFO  11:49:58,024 - #6 (
+INFO  11:49:58,024 - #7 )
+INFO  11:49:58,024 - #3 {
+INFO  11:49:58,024 - #36 return
+INFO  11:49:58,025 - #46 3
+INFO  11:49:58,026 - #5 ;
+INFO  11:49:58,026 - #4 }
+INFO  11:49:58,027 - #12 void
+INFO  11:49:58,027 - #47 main
+INFO  11:49:58,027 - #6 (
+INFO  11:49:58,027 - #7 )
+INFO  11:49:58,027 - #3 {
+INFO  11:49:58,027 - #47 jedan
+INFO  11:49:58,027 - #11 =
+INFO  11:49:58,027 - #46 2
+INFO  11:49:58,029 - #5 ;
+INFO  11:49:58,029 - #4 }
+INFO  11:49:58,029 - #4 }
+ERROR 11:49:58,057 -  Metoda m1 nema return iskaz! na liniji 14
+ERROR 11:49:58,058 - Metoda m2 mora biti tipa void na liniji 9
+ERROR 11:49:58,058 - tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije m3 na liniji 2
+INFO  11:49:58,058 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 21
+ERROR 11:49:58,059 - Parsiranje NIJE uspesno zavrseno!

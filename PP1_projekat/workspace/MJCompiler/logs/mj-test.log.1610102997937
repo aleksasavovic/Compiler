@@ -1,0 +1,45 @@
+INFO  11:46:36,263 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:46:36,481 - #2 program
+INFO  11:46:36,481 - #47 test301
+INFO  11:46:36,481 - #47 int
+INFO  11:46:36,483 - #47 jedan
+INFO  11:46:36,485 - #8 ,
+INFO  11:46:36,485 - #47 dva
+INFO  11:46:36,485 - #5 ;
+INFO  11:46:36,485 - #3 {
+INFO  11:46:36,486 - #47 bool
+INFO  11:46:36,487 - #47 m1
+INFO  11:46:36,487 - #6 (
+INFO  11:46:36,488 - #7 )
+INFO  11:46:36,489 - #3 {
+INFO  11:46:36,491 - #4 }
+INFO  11:46:36,493 - #47 int
+INFO  11:46:36,495 - #47 m2
+INFO  11:46:36,496 - #6 (
+INFO  11:46:36,496 - #7 )
+INFO  11:46:36,496 - #3 {
+INFO  11:46:36,496 - #36 return
+INFO  11:46:36,498 - #5 ;
+INFO  11:46:36,498 - #4 }
+INFO  11:46:36,499 - #47 bool
+INFO  11:46:36,499 - #47 m3
+INFO  11:46:36,500 - #6 (
+INFO  11:46:36,500 - #7 )
+INFO  11:46:36,500 - #3 {
+INFO  11:46:36,500 - #36 return
+INFO  11:46:36,500 - #46 3
+INFO  11:46:36,502 - #5 ;
+INFO  11:46:36,503 - #4 }
+INFO  11:46:36,503 - #12 void
+INFO  11:46:36,503 - #47 main
+INFO  11:46:36,503 - #6 (
+INFO  11:46:36,503 - #7 )
+INFO  11:46:36,503 - #3 {
+INFO  11:46:36,503 - #47 jedan
+INFO  11:46:36,504 - #11 =
+INFO  11:46:36,504 - #46 2
+INFO  11:46:36,507 - #5 ;
+INFO  11:46:36,507 - #4 }
+INFO  11:46:36,507 - #4 }
+ERROR 11:46:59,611 -  Metoda m1 nema return iskaz! na liniji 14
+ERROR 11:47:28,808 - Metoda m2 mora biti tipa void

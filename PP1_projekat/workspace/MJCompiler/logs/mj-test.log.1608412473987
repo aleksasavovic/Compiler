@@ -1,0 +1,21 @@
+INFO  22:14:00,291 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  22:14:00,334 - #2 program
+INFO  22:14:00,334 - #20 MJProgram
+INFO  22:14:00,335 - #20 int
+INFO  22:14:00,336 - #20 x
+INFO  22:14:00,338 - #5 ;
+INFO  22:14:00,338 - #20 int
+INFO  22:14:00,340 - #20 y
+INFO  22:14:00,340 - #5 ;
+INFO  22:14:00,340 - #14 const
+INFO  22:14:00,340 - #20 int
+INFO  22:14:00,340 - #20 a
+INFO  22:14:00,341 - #12 =
+INFO  22:14:00,341 - #19 5
+INFO  22:14:00,341 - #8 ,
+INFO  22:14:00,341 - #20 b
+INFO  22:14:00,342 - #12 =
+INFO  22:14:00,342 - #19 10
+INFO  22:14:00,342 - #5 ;
+INFO  22:14:00,342 - #3 {
+INFO  22:14:00,343 - #4 }

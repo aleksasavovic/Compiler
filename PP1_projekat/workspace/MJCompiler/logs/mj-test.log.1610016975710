@@ -1,0 +1,57 @@
+INFO  11:54:47,519 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:54:47,591 - #2 program
+INFO  11:54:47,591 - #47 test301
+INFO  11:54:47,591 - #13 const
+INFO  11:54:47,594 - #47 int
+INFO  11:54:47,594 - #47 jedan
+INFO  11:54:47,595 - #11 =
+INFO  11:54:47,595 - #46 1
+INFO  11:54:47,596 - #5 ;
+INFO  11:54:47,596 - #13 const
+INFO  11:54:47,597 - #47 int
+INFO  11:54:47,598 - #47 pet
+INFO  11:54:47,598 - #11 =
+INFO  11:54:47,598 - #46 5
+INFO  11:54:47,598 - #5 ;
+INFO  11:54:47,598 - #47 int
+INFO  11:54:47,598 - #47 niz
+INFO  11:54:47,598 - #15 [
+INFO  11:54:47,598 - #14 ]
+INFO  11:54:47,598 - #8 ,
+INFO  11:54:47,599 - #47 num
+INFO  11:54:47,601 - #5 ;
+INFO  11:54:47,601 - #47 char
+INFO  11:54:47,601 - #47 nizch
+INFO  11:54:47,601 - #15 [
+INFO  11:54:47,601 - #14 ]
+INFO  11:54:47,601 - #8 ,
+INFO  11:54:47,602 - #47 c
+INFO  11:54:47,602 - #5 ;
+INFO  11:54:47,602 - #3 {
+INFO  11:54:47,602 - #47 int
+INFO  11:54:47,603 - #47 al
+INFO  11:54:47,603 - #6 (
+INFO  11:54:47,603 - #7 )
+INFO  11:54:47,604 - #3 {
+INFO  11:54:47,604 - #36 return
+INFO  11:54:47,605 - #47 jedan
+INFO  11:54:47,606 - #5 ;
+INFO  11:54:47,608 - #4 }
+INFO  11:54:47,608 - #12 void
+INFO  11:54:47,609 - #47 main
+INFO  11:54:47,609 - #6 (
+INFO  11:54:47,610 - #7 )
+INFO  11:54:47,610 - #3 {
+INFO  11:54:47,610 - #47 niz
+INFO  11:54:47,610 - #15 [
+INFO  11:54:47,610 - #46 2
+INFO  11:54:47,610 - #14 ]
+INFO  11:54:47,610 - #11 =
+INFO  11:54:47,610 - #19 -
+INFO  11:54:47,612 - #47 num
+INFO  11:54:47,612 - #5 ;
+INFO  11:54:47,613 - #4 }
+INFO  11:54:47,613 - #4 }
+INFO  11:54:47,644 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 17
+INFO  11:54:47,645 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 20
+INFO  11:54:47,645 - Detektovano koriscenje globalne promenljive Var num: int, 1, 0  na liniji 20

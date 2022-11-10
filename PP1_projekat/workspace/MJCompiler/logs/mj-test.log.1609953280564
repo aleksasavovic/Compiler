@@ -1,0 +1,53 @@
+INFO  18:14:09,460 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  18:14:09,535 - #2 program
+INFO  18:14:09,536 - #47 test301
+INFO  18:14:09,536 - #13 const
+INFO  18:14:09,537 - #47 int
+INFO  18:14:09,538 - #47 nula
+INFO  18:14:09,538 - #11 =
+INFO  18:14:09,539 - #46 0
+INFO  18:14:09,539 - #5 ;
+INFO  18:14:09,539 - #13 const
+INFO  18:14:09,540 - #47 int
+INFO  18:14:09,540 - #47 jedan
+INFO  18:14:09,540 - #11 =
+INFO  18:14:09,540 - #46 1
+INFO  18:14:09,541 - #5 ;
+INFO  18:14:09,541 - #13 const
+INFO  18:14:09,541 - #47 int
+INFO  18:14:09,541 - #47 pet
+INFO  18:14:09,541 - #11 =
+INFO  18:14:09,541 - #46 5
+INFO  18:14:09,541 - #5 ;
+INFO  18:14:09,543 - #47 int
+INFO  18:14:09,543 - #47 niz
+INFO  18:14:09,543 - #15 [
+INFO  18:14:09,543 - #14 ]
+INFO  18:14:09,544 - #8 ,
+INFO  18:14:09,544 - #47 num
+INFO  18:14:09,544 - #5 ;
+INFO  18:14:09,544 - #47 char
+INFO  18:14:09,545 - #47 nizch
+INFO  18:14:09,545 - #15 [
+INFO  18:14:09,545 - #14 ]
+INFO  18:14:09,545 - #8 ,
+INFO  18:14:09,545 - #47 c
+INFO  18:14:09,545 - #5 ;
+INFO  18:14:09,545 - #3 {
+INFO  18:14:09,545 - #12 void
+INFO  18:14:09,546 - #47 main
+INFO  18:14:09,546 - #6 (
+INFO  18:14:09,546 - #7 )
+INFO  18:14:09,547 - #3 {
+INFO  18:14:09,548 - #47 num
+INFO  18:14:09,549 - #11 =
+INFO  18:14:09,549 - #47 num
+INFO  18:14:09,552 - #20 *
+INFO  18:14:09,553 - #49 c
+INFO  18:14:09,554 - #5 ;
+INFO  18:14:09,555 - #4 }
+INFO  18:14:09,555 - #4 }
+INFO  18:14:09,571 - Detektovano koriscenje globalne promenljive Var num: int, 1, 0  na liniji 18
+INFO  18:14:09,571 - Detektovano koriscenje globalne promenljive Var num: int, 1, 0  na liniji 18
+ERROR 18:14:09,572 - nekompatibilni tipovi u izrazu za mnozenje. na liniji 18
+ERROR 18:14:09,572 - Parsiranje NIJE uspesno zavrseno!

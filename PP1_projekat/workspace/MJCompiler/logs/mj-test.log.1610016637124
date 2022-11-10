@@ -1,0 +1,57 @@
+INFO  11:30:20,633 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:30:20,703 - #2 program
+INFO  11:30:20,704 - #47 test301
+INFO  11:30:20,704 - #13 const
+INFO  11:30:20,705 - #47 int
+INFO  11:30:20,705 - #47 nula
+INFO  11:30:20,706 - #11 =
+INFO  11:30:20,706 - #46 0
+INFO  11:30:20,707 - #5 ;
+INFO  11:30:20,707 - #13 const
+INFO  11:30:20,708 - #47 int
+INFO  11:30:20,708 - #47 jedan
+INFO  11:30:20,708 - #11 =
+INFO  11:30:20,708 - #46 1
+INFO  11:30:20,708 - #5 ;
+INFO  11:30:20,708 - #13 const
+INFO  11:30:20,709 - #47 int
+INFO  11:30:20,709 - #47 pet
+INFO  11:30:20,709 - #11 =
+INFO  11:30:20,709 - #46 5
+INFO  11:30:20,709 - #5 ;
+INFO  11:30:20,709 - #47 int
+INFO  11:30:20,710 - #47 niz
+INFO  11:30:20,710 - #15 [
+INFO  11:30:20,710 - #14 ]
+INFO  11:30:20,710 - #8 ,
+INFO  11:30:20,710 - #47 num
+INFO  11:30:20,710 - #5 ;
+INFO  11:30:20,711 - #47 char
+INFO  11:30:20,711 - #47 nizch
+INFO  11:30:20,711 - #15 [
+INFO  11:30:20,711 - #14 ]
+INFO  11:30:20,711 - #8 ,
+INFO  11:30:20,711 - #47 c
+INFO  11:30:20,711 - #5 ;
+INFO  11:30:20,711 - #3 {
+INFO  11:30:20,711 - #12 void
+INFO  11:30:20,712 - #47 main
+INFO  11:30:20,712 - #6 (
+INFO  11:30:20,713 - #7 )
+INFO  11:30:20,713 - #3 {
+INFO  11:30:20,714 - #47 niz
+INFO  11:30:20,715 - #15 [
+INFO  11:30:20,715 - #46 2
+INFO  11:30:20,716 - #14 ]
+INFO  11:30:20,717 - #11 =
+INFO  11:30:20,717 - #19 -
+INFO  11:30:20,718 - #47 num
+INFO  11:30:20,719 - #5 ;
+INFO  11:30:20,720 - #4 }
+INFO  11:30:20,720 - #4 }
+ERROR 11:30:20,754 - Vrednost dodeljena konstanti nije tipa konstante na liniji 8
+ERROR 11:30:20,755 - Vrednost dodeljena konstanti nije tipa konstante na liniji 9
+ERROR 11:30:20,755 - Vrednost dodeljena konstanti nije tipa konstante na liniji 10
+INFO  11:30:20,755 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 18
+INFO  11:30:20,755 - Detektovano koriscenje globalne promenljive Var num: int, 1, 0  na liniji 18
+ERROR 11:30:20,756 - Parsiranje NIJE uspesno zavrseno!

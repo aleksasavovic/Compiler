@@ -1,0 +1,21 @@
+INFO  17:51:40,727 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  17:51:40,760 - #2 program
+INFO  17:51:40,761 - #38 MJProgram
+INFO  17:51:40,761 - #18 class
+INFO  17:51:40,762 - #38 Aleksa
+INFO  17:51:40,762 - #17 extends
+INFO  17:51:40,762 - #38 Selena
+INFO  17:51:40,762 - #3 {
+INFO  17:51:40,762 - #38 int
+INFO  17:51:40,763 - #38 a
+INFO  17:51:40,763 - #8 ,
+INFO  17:51:40,763 - #38 s
+INFO  17:51:40,763 - #16 [
+INFO  17:51:40,763 - #15 ]
+INFO  17:51:40,764 - #5 ;
+INFO  17:51:40,764 - #38 char
+INFO  17:51:40,764 - #38 c
+INFO  17:51:40,765 - #5 ;
+INFO  17:51:40,765 - #4 }
+INFO  17:51:40,765 - #3 {
+INFO  17:51:40,766 - #4 }

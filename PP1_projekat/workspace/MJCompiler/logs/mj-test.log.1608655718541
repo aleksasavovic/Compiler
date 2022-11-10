@@ -1,0 +1,21 @@
+INFO  17:41:37,163 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  17:41:37,190 - #2 program
+INFO  17:41:37,190 - #38 MJProgram
+INFO  17:41:37,190 - #14 const
+INFO  17:41:37,191 - #38 char
+INFO  17:41:37,191 - #38 Aleksa
+INFO  17:41:37,191 - #12 =
+INFO  17:41:37,192 - #40 s
+INFO  17:41:37,192 - #8 ,
+INFO  17:41:37,192 - #38 Selena
+INFO  17:41:37,192 - #12 =
+INFO  17:41:37,192 - #40 a
+INFO  17:41:37,192 - #5 ;
+INFO  17:41:37,192 - #14 const
+INFO  17:41:37,193 - #38 char
+INFO  17:41:37,193 - #38 Selena
+INFO  17:41:37,193 - #12 =
+INFO  17:41:37,193 - #40 a
+INFO  17:41:37,193 - #5 ;
+INFO  17:41:37,193 - #3 {
+INFO  17:41:37,193 - #4 }

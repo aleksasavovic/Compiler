@@ -1,0 +1,62 @@
+INFO  14:53:54,168 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  14:53:54,204 - #2 program
+INFO  14:53:54,205 - #47 test301
+INFO  14:53:54,205 - #47 int
+INFO  14:53:54,205 - #47 jedan
+INFO  14:53:54,206 - #8 ,
+INFO  14:53:54,206 - #47 dva
+INFO  14:53:54,206 - #15 [
+INFO  14:53:54,206 - #14 ]
+INFO  14:53:54,206 - #5 ;
+INFO  14:53:54,207 - #13 const
+INFO  14:53:54,207 - #47 int
+INFO  14:53:54,207 - #47 cint
+INFO  14:53:54,207 - #11 =
+INFO  14:53:54,207 - #46 10
+INFO  14:53:54,207 - #5 ;
+INFO  14:53:54,207 - #47 char
+INFO  14:53:54,208 - #47 c
+INFO  14:53:54,208 - #5 ;
+INFO  14:53:54,208 - #47 bool
+INFO  14:53:54,208 - #47 b
+INFO  14:53:54,211 - #5 ;
+INFO  14:53:54,211 - #3 {
+INFO  14:53:54,211 - #12 void
+INFO  14:53:54,211 - #47 main
+INFO  14:53:54,211 - #6 (
+INFO  14:53:54,212 - #7 )
+INFO  14:53:54,212 - #3 {
+INFO  14:53:54,212 - #47 jedan
+INFO  14:53:54,212 - #11 =
+INFO  14:53:54,213 - #19 -
+INFO  14:53:54,213 - #47 jedan
+INFO  14:53:54,214 - #10 +
+INFO  14:53:54,215 - #46 3
+INFO  14:53:54,216 - #19 -
+INFO  14:53:54,216 - #46 3
+INFO  14:53:54,216 - #5 ;
+INFO  14:53:54,217 - #47 jedan
+INFO  14:53:54,217 - #11 =
+INFO  14:53:54,217 - #47 dva
+INFO  14:53:54,217 - #15 [
+INFO  14:53:54,217 - #48 true
+INFO  14:53:54,218 - #14 ]
+INFO  14:53:54,219 - #5 ;
+INFO  14:53:54,219 - #47 jedan
+INFO  14:53:54,219 - #11 =
+INFO  14:53:54,219 - #47 dva
+INFO  14:53:54,219 - #15 [
+INFO  14:53:54,219 - #47 jedan
+INFO  14:53:54,219 - #14 ]
+INFO  14:53:54,220 - #5 ;
+INFO  14:53:54,220 - #4 }
+INFO  14:53:54,220 - #4 }
+INFO  14:53:54,235 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 19
+INFO  14:53:54,235 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 19
+INFO  14:53:54,235 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 20
+INFO  14:53:54,235 - Detektovano koriscenje globalne promenljive Var dva: Arr of int, 1, 0  na liniji 20
+ERROR 14:53:54,235 - Argument za inicijalizaciju niza mora biti int na liniji 20
+INFO  14:53:54,235 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 21
+INFO  14:53:54,238 - Detektovano koriscenje globalne promenljive Var dva: Arr of int, 1, 0  na liniji 21
+INFO  14:53:54,238 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 21
+ERROR 14:53:54,239 - Parsiranje NIJE uspesno zavrseno!

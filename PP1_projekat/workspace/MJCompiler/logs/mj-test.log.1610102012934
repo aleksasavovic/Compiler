@@ -1,0 +1,40 @@
+INFO  11:32:16,386 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:32:16,455 - #2 program
+INFO  11:32:16,456 - #47 test301
+INFO  11:32:16,456 - #47 int
+INFO  11:32:16,458 - #47 jedan
+INFO  11:32:16,459 - #8 ,
+INFO  11:32:16,459 - #47 str
+INFO  11:32:16,459 - #37 .
+ERROR 11:32:16,459 - 
+Sintaksna greska na liniji 9
+INFO  11:32:16,459 - #46 2
+INFO  11:32:16,459 - #8 ,
+INFO  11:32:16,459 - #47 dva
+INFO  11:32:16,460 - #5 ;
+INFO  11:32:16,460 - #3 {
+INFO  11:32:16,461 - #12 void
+INFO  11:32:16,462 - #47 main
+INFO  11:32:16,462 - #6 (
+INFO  11:32:16,462 - #7 )
+INFO  11:32:16,463 - #3 {
+INFO  11:32:16,464 - #47 jedan
+INFO  11:32:16,465 - #11 =
+INFO  11:32:16,467 - #46 2
+INFO  11:32:16,469 - #5 ;
+INFO  11:32:16,470 - #47 jedan
+INFO  11:32:16,470 - #11 =
+INFO  11:32:16,470 - #46 25
+INFO  11:32:16,470 - #37 .
+ERROR 11:32:16,470 - 
+Sintaksna greska na liniji 17
+INFO  11:32:16,470 - #46 9
+INFO  11:32:16,471 - #5 ;
+INFO  11:32:16,471 - #4 }
+INFO  11:32:16,471 - #4 }
+INFO  11:32:16,496 - Uspesan oporavak od sintaksne greske pri deklaraciji promenljive do , na liniji 9
+ERROR 11:32:16,496 - Greska na liniji 16 : ime jedan nije deklarisano! 
+ERROR 11:32:16,496 - Tip izraza nije kompatibilan pri dodeli vrednosti sa tipom  destinacionog objekta kojem se dodeljuje na liniji 16
+ERROR 11:32:16,496 - Greska na liniji 17 : ime jedan nije deklarisano! 
+INFO  11:32:16,497 - Uspesan oporavak od sintaksne greske pri dodeli vrednosti  na liniji 17
+ERROR 11:32:16,497 - Parsiranje NIJE uspesno zavrseno!

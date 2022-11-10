@@ -1,0 +1,7 @@
+INFO  16:52:28,135 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  16:52:28,207 - #2 program
+INFO  16:52:28,207 - #47 test301
+INFO  16:52:28,207 - #4 }
+ERROR 16:52:28,207 - 
+Sintaksna greska na liniji 5
+ERROR 16:52:28,207 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

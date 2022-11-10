@@ -1,0 +1,76 @@
+INFO  16:59:49,124 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\projekat_final\workspace\MJCompiler\test\program.mj
+INFO  16:59:49,166 - #2 program
+INFO  16:59:49,166 - #47 test301
+INFO  16:59:49,166 - #13 const
+INFO  16:59:49,167 - #47 int
+INFO  16:59:49,167 - #47 nula
+INFO  16:59:49,167 - #11 =
+INFO  16:59:49,168 - #46 0
+INFO  16:59:49,168 - #5 ;
+INFO  16:59:49,168 - #13 const
+INFO  16:59:49,168 - #47 int
+INFO  16:59:49,169 - #47 jedan
+INFO  16:59:49,169 - #11 =
+INFO  16:59:49,169 - #46 1
+INFO  16:59:49,169 - #5 ;
+INFO  16:59:49,169 - #13 const
+INFO  16:59:49,169 - #47 int
+INFO  16:59:49,169 - #47 pet
+INFO  16:59:49,169 - #11 =
+INFO  16:59:49,169 - #46 5
+INFO  16:59:49,169 - #5 ;
+INFO  16:59:49,170 - #47 int
+INFO  16:59:49,170 - #47 niz
+INFO  16:59:49,170 - #15 [
+INFO  16:59:49,170 - #14 ]
+INFO  16:59:49,170 - #5 ;
+INFO  16:59:49,170 - #47 char
+INFO  16:59:49,171 - #47 nizch
+INFO  16:59:49,171 - #15 [
+INFO  16:59:49,171 - #14 ]
+INFO  16:59:49,171 - #5 ;
+INFO  16:59:49,171 - #3 {
+INFO  16:59:49,171 - #47 int
+INFO  16:59:49,172 - #47 mint
+INFO  16:59:49,172 - #6 (
+INFO  16:59:49,172 - #7 )
+INFO  16:59:49,173 - #3 {
+INFO  16:59:49,174 - #36 return
+INFO  16:59:49,175 - #49 c
+INFO  16:59:49,176 - #5 ;
+INFO  16:59:49,176 - #4 }
+INFO  16:59:49,177 - #12 void
+INFO  16:59:49,177 - #47 main
+INFO  16:59:49,177 - #6 (
+INFO  16:59:49,177 - #7 )
+INFO  16:59:49,178 - #47 int
+INFO  16:59:49,178 - #47 bodovi
+INFO  16:59:49,178 - #5 ;
+INFO  16:59:49,178 - #47 bool
+INFO  16:59:49,178 - #47 bt
+INFO  16:59:49,178 - #5 ;
+INFO  16:59:49,178 - #47 int
+INFO  16:59:49,179 - #47 a
+INFO  16:59:49,179 - #8 ,
+INFO  16:59:49,179 - #47 b
+INFO  16:59:49,179 - #8 ,
+INFO  16:59:49,179 - #47 c
+INFO  16:59:49,179 - #5 ;
+INFO  16:59:49,179 - #3 {
+INFO  16:59:49,179 - #47 bodovi
+INFO  16:59:49,183 - #11 =
+INFO  16:59:49,183 - #47 a
+INFO  16:59:49,184 - #28 >
+INFO  16:59:49,185 - #49 b
+INFO  16:59:49,186 - #32 ?
+INFO  16:59:49,186 - #46 3
+INFO  16:59:49,186 - #33 :
+INFO  16:59:49,187 - #46 4
+INFO  16:59:49,187 - #5 ;
+INFO  16:59:49,187 - #4 }
+INFO  16:59:49,188 - #4 }
+ERROR 16:59:49,202 - tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije mint na liniji 14
+INFO  16:59:49,203 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 23
+INFO  16:59:49,203 - Detektovano koriscenje lokalne promenljive Var a: int, 2, 1  na liniji 23
+ERROR 16:59:49,203 - Izrazi za proveru uslova nisu kompatibilni na liniji 9
+ERROR 16:59:49,204 - Parsiranje NIJE uspesno zavrseno!

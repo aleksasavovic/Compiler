@@ -1,0 +1,17 @@
+// Test301
+
+program test301
+
+	
+{
+	
+	void main()	
+		int bodovi;
+		bool bt;
+	{
+		bodovi = -(-5*(-3+2)
+		);
+	}
+}
+
+

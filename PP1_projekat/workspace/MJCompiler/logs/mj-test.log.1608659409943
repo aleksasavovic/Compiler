@@ -1,0 +1,33 @@
+INFO  18:50:02,125 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  18:50:02,159 - #2 program
+INFO  18:50:02,159 - #38 MJProgram
+INFO  18:50:02,159 - #18 class
+INFO  18:50:02,161 - #38 Aleksa
+INFO  18:50:02,161 - #3 {
+INFO  18:50:02,162 - #3 {
+INFO  18:50:02,163 - #13 void
+INFO  18:50:02,164 - #38 SelenaLovesAleksa
+INFO  18:50:02,164 - #6 (
+INFO  18:50:02,164 - #38 int
+INFO  18:50:02,164 - #38 i
+INFO  18:50:02,165 - #8 ,
+INFO  18:50:02,165 - #38 char
+INFO  18:50:02,166 - #38 c
+INFO  18:50:02,166 - #16 [
+INFO  18:50:02,166 - #15 ]
+INFO  18:50:02,166 - #7 )
+INFO  18:50:02,166 - #38 int
+INFO  18:50:02,166 - #38 sva
+INFO  18:50:02,167 - #5 ;
+INFO  18:50:02,169 - #3 {
+INFO  18:50:02,170 - #38 sva
+INFO  18:50:02,171 - #12 =
+INFO  18:50:02,171 - #37 1
+INFO  18:50:02,172 - #33 ?
+INFO  18:50:02,174 - #37 2
+INFO  18:50:02,175 - #34 :
+INFO  18:50:02,175 - #37 3
+INFO  18:50:02,175 - #4 }
+ERROR 18:50:02,175 - 
+Sintaksna greska na liniji 7
+ERROR 18:50:02,175 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

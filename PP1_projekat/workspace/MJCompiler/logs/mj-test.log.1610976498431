@@ -1,0 +1,62 @@
+INFO  14:27:42,464 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\projekat_final\workspace\MJCompiler\test\program.mj
+INFO  14:27:42,528 - #2 program
+INFO  14:27:42,528 - #47 test301
+INFO  14:27:42,528 - #13 const
+INFO  14:27:42,530 - #47 int
+INFO  14:27:42,530 - #47 nula
+INFO  14:27:42,531 - #11 =
+INFO  14:27:42,531 - #46 0
+INFO  14:27:42,531 - #5 ;
+INFO  14:27:42,532 - #13 const
+INFO  14:27:42,533 - #47 int
+INFO  14:27:42,533 - #47 jedan
+INFO  14:27:42,533 - #11 =
+INFO  14:27:42,533 - #46 1
+INFO  14:27:42,533 - #5 ;
+INFO  14:27:42,533 - #13 const
+INFO  14:27:42,534 - #47 int
+INFO  14:27:42,534 - #47 pet
+INFO  14:27:42,534 - #11 =
+INFO  14:27:42,534 - #46 5
+INFO  14:27:42,534 - #5 ;
+INFO  14:27:42,536 - #47 int
+INFO  14:27:42,536 - #47 niz
+INFO  14:27:42,536 - #15 [
+INFO  14:27:42,536 - #14 ]
+INFO  14:27:42,536 - #5 ;
+INFO  14:27:42,537 - #47 char
+INFO  14:27:42,537 - #47 nizch
+INFO  14:27:42,537 - #15 [
+INFO  14:27:42,537 - #14 ]
+INFO  14:27:42,537 - #5 ;
+INFO  14:27:42,537 - #3 {
+INFO  14:27:42,537 - #12 void
+INFO  14:27:42,538 - #47 main
+INFO  14:27:42,538 - #6 (
+INFO  14:27:42,538 - #7 )
+INFO  14:27:42,539 - #47 int
+INFO  14:27:42,540 - #47 bodovi
+INFO  14:27:42,540 - #5 ;
+INFO  14:27:42,540 - #47 bool
+INFO  14:27:42,540 - #47 bt
+INFO  14:27:42,541 - #5 ;
+INFO  14:27:42,541 - #47 int
+INFO  14:27:42,541 - #47 a
+INFO  14:27:42,541 - #8 ,
+INFO  14:27:42,541 - #47 b
+INFO  14:27:42,541 - #8 ,
+INFO  14:27:42,541 - #47 c
+INFO  14:27:42,541 - #5 ;
+INFO  14:27:42,541 - #3 {
+INFO  14:27:42,541 - #47 a
+INFO  14:27:42,542 - #11 =
+INFO  14:27:42,542 - #46 1
+INFO  14:27:42,545 - #10 +
+INFO  14:27:42,545 - #49 c
+INFO  14:27:42,547 - #5 ;
+INFO  14:27:42,547 - #4 }
+INFO  14:27:42,547 - #4 }
+INFO  14:27:42,573 - Detektovano koriscenje lokalne promenljive Var a: int, 2, 1  na liniji 18
+ERROR 14:27:42,579 - Nekompatibilni tipovi u izrazu za sabiranje.
+ERROR 14:27:42,579 - Tip izraza nije kompatibilan pri dodeli vrednosti sa tipom  destinacionog objekta kojem se dodeljuje na liniji 18
+ERROR 14:27:42,580 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,36 @@
+INFO  22:44:39,900 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  22:44:39,963 - #2 program
+INFO  22:44:39,963 - #43 test302
+INFO  22:44:39,963 - #13 const
+INFO  22:44:39,963 - #43 int
+INFO  22:44:39,963 - #43 jedan
+INFO  22:44:39,963 - #11 =
+INFO  22:44:39,963 - #42 1
+INFO  22:44:39,963 - #5 ;
+INFO  22:44:39,963 - #43 int
+INFO  22:44:39,963 - #43 i
+INFO  22:44:39,963 - #5 ;
+INFO  22:44:39,963 - #43 bool
+INFO  22:44:39,963 - #43 ibool
+INFO  22:44:39,963 - #5 ;
+INFO  22:44:39,963 - #43 int
+INFO  22:44:39,963 - #43 niz
+INFO  22:44:39,963 - #15 [
+INFO  22:44:39,963 - #14 ]
+INFO  22:44:39,963 - #5 ;
+INFO  22:44:39,963 - #3 {
+INFO  22:44:39,963 - #43 int
+INFO  22:44:39,963 - #43 sum
+INFO  22:44:39,963 - #6 (
+INFO  22:44:39,963 - #43 int
+INFO  22:44:39,963 - #43 z
+INFO  22:44:39,963 - #8 ,
+INFO  22:44:39,963 - #43 int
+INFO  22:44:39,963 - #43 d
+INFO  22:44:39,963 - #7 )
+INFO  22:44:39,963 - #3 {
+INFO  22:44:39,963 - #36 return
+INFO  22:44:39,963 - #43 z
+ERROR 22:44:39,963 - 
+Sintaksna greska na liniji 16
+ERROR 22:44:39,963 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16

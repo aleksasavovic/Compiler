@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="rs.etf.pp1.mj.runtime.Code"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MethodTypeName"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.VarDeclList"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FormalParamList"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FormPars"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CodeGenerator"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FormalParamDecl"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor.VarCounter"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor.FormParamCounter"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.ir.VarNode"/>
+<fullyQualifiedTypeName name="java.nio.file.StandardOpenOption"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.SyntaxNode"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Assignment"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FuncCall"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MethodDecl"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.VarDecl"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Program"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Obj"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.visitors.DumpSymbolTableVisitor"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.SemanticAnalizer"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MethodType"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.Tab"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MulOpMul"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MulOpDiv"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorStatementIncrement"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.PrintStatementTwoArguments"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ReadStatement"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorArray"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.EqualsOp"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.NotEqualsOp"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MoreEqualOp"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MoreOp"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.LessEqualOp"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.LessOp"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Colon"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Struct"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ExprCommaList"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ExprCondition"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,44 @@
+INFO  09:30:57,643 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  09:30:57,709 - #2 program
+INFO  09:30:57,710 - #47 test301
+INFO  09:30:57,710 - #13 const
+INFO  09:30:57,711 - #47 int
+INFO  09:30:57,712 - #47 nula
+INFO  09:30:57,712 - #11 =
+INFO  09:30:57,712 - #46 0
+INFO  09:30:57,713 - #5 ;
+INFO  09:30:57,713 - #13 const
+INFO  09:30:57,714 - #47 int
+INFO  09:30:57,714 - #47 jedan
+INFO  09:30:57,714 - #11 =
+INFO  09:30:57,714 - #46 1
+INFO  09:30:57,714 - #5 ;
+INFO  09:30:57,714 - #13 const
+INFO  09:30:57,715 - #47 int
+INFO  09:30:57,715 - #47 pet
+INFO  09:30:57,715 - #11 =
+INFO  09:30:57,715 - #46 5
+INFO  09:30:57,715 - #5 ;
+INFO  09:30:57,720 - #47 int
+INFO  09:30:57,720 - #47 niz
+INFO  09:30:57,720 - #15 [
+INFO  09:30:57,720 - #14 ]
+INFO  09:30:57,720 - #5 ;
+INFO  09:30:57,720 - #47 char
+INFO  09:30:57,720 - #47 nizch
+INFO  09:30:57,720 - #15 [
+INFO  09:30:57,720 - #14 ]
+INFO  09:30:57,720 - #5 ;
+INFO  09:30:57,720 - #3 {
+INFO  09:30:57,720 - #47 int
+INFO  09:30:57,721 - #47 mint
+INFO  09:30:57,721 - #6 (
+INFO  09:30:57,722 - #7 )
+INFO  09:30:57,722 - #3 {
+INFO  09:30:57,723 - #36 return
+INFO  09:30:57,724 - #46 2
+INFO  09:30:57,725 - #5 ;
+INFO  09:30:57,725 - #5 ;
+ERROR 09:30:57,726 - 
+Sintaksna greska na liniji 15
+ERROR 09:30:57,726 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

@@ -1,0 +1,7 @@
+INFO  16:52:41,226 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  16:52:41,303 - #2 program
+INFO  16:52:41,303 - #47 test301
+INFO  16:52:41,303 - #3 {
+INFO  16:52:41,305 - #4 }
+ERROR 16:52:41,319 - Metoda main nije definisana
+ERROR 16:52:41,320 - Parsiranje NIJE uspesno zavrseno!

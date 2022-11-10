@@ -1,0 +1,68 @@
+INFO  12:05:30,330 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  12:05:30,385 - #2 program
+INFO  12:05:30,385 - #47 test301
+INFO  12:05:30,385 - #47 int
+INFO  12:05:30,385 - #47 jedan
+INFO  12:05:30,385 - #8 ,
+INFO  12:05:30,385 - #47 dva
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #13 const
+INFO  12:05:30,401 - #47 int
+INFO  12:05:30,401 - #47 cint
+INFO  12:05:30,401 - #11 =
+INFO  12:05:30,401 - #46 10
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 char
+INFO  12:05:30,401 - #47 c
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 bool
+INFO  12:05:30,401 - #47 b
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #3 {
+INFO  12:05:30,401 - #12 void
+INFO  12:05:30,401 - #47 main
+INFO  12:05:30,401 - #6 (
+INFO  12:05:30,401 - #7 )
+INFO  12:05:30,401 - #3 {
+INFO  12:05:30,401 - #47 jedan
+INFO  12:05:30,401 - #11 =
+INFO  12:05:30,401 - #46 2
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 jedan
+INFO  12:05:30,401 - #23 ++
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 jedan
+INFO  12:05:30,401 - #24 --
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 cint
+INFO  12:05:30,401 - #23 ++
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 cint
+INFO  12:05:30,401 - #24 --
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 c
+INFO  12:05:30,401 - #23 ++
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 c
+INFO  12:05:30,401 - #24 --
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 b
+INFO  12:05:30,401 - #23 ++
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #47 b
+INFO  12:05:30,401 - #24 --
+INFO  12:05:30,401 - #5 ;
+INFO  12:05:30,401 - #4 }
+INFO  12:05:30,401 - #4 }
+INFO  12:05:30,432 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 18
+INFO  12:05:30,432 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 19
+INFO  12:05:30,432 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 20
+INFO  12:05:30,432 - Detektovano koriscenje konstante Con cint: int, 10, 0  na liniji 21
+ERROR 12:05:30,432 - Designator cint mora biti promenljiva, element niza ili polje klase na liniji 21
+INFO  12:05:30,432 - Detektovano koriscenje konstante Con cint: int, 10, 0  na liniji 22
+ERROR 12:05:30,432 - Designator cint mora biti promenljiva, element niza ili polje klase na liniji 22
+INFO  12:05:30,432 - Detektovano koriscenje globalne promenljive Var c: char, 2, 0  na liniji 23
+INFO  12:05:30,432 - Detektovano koriscenje globalne promenljive Var c: char, 2, 0  na liniji 24
+INFO  12:05:30,432 - Detektovano koriscenje globalne promenljive Var b: , 3, 0  na liniji 25
+INFO  12:05:30,432 - Detektovano koriscenje globalne promenljive Var b: , 3, 0  na liniji 26
+ERROR 12:05:30,432 - Parsiranje NIJE uspesno zavrseno!

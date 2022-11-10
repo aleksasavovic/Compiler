@@ -1,0 +1,58 @@
+// generated with ast extension for cup
+// version 0.8
+// 14/0/2021 17:17:14
+
+
+package rs.ac.bg.etf.pp1.ast;
+
+public class NoOptMinusExpr extends OptMinus {
+
+    private Nothing Nothing;
+
+    public NoOptMinusExpr (Nothing Nothing) {
+        this.Nothing=Nothing;
+        if(Nothing!=null) Nothing.setParent(this);
+    }
+
+    public Nothing getNothing() {
+        return Nothing;
+    }
+
+    public void setNothing(Nothing Nothing) {
+        this.Nothing=Nothing;
+    }
+
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+
+    public void childrenAccept(Visitor visitor) {
+        if(Nothing!=null) Nothing.accept(visitor);
+    }
+
+    public void traverseTopDown(Visitor visitor) {
+        accept(visitor);
+        if(Nothing!=null) Nothing.traverseTopDown(visitor);
+    }
+
+    public void traverseBottomUp(Visitor visitor) {
+        if(Nothing!=null) Nothing.traverseBottomUp(visitor);
+        accept(visitor);
+    }
+
+    public String toString(String tab) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append(tab);
+        buffer.append("NoOptMinusExpr(\n");
+
+        if(Nothing!=null)
+            buffer.append(Nothing.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(tab);
+        buffer.append(") [NoOptMinusExpr]");
+        return buffer.toString();
+    }
+}

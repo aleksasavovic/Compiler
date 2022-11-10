@@ -1,0 +1,77 @@
+INFO  11:59:41,858 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:59:41,949 - #2 program
+INFO  11:59:41,949 - #47 test301
+INFO  11:59:41,949 - #13 const
+INFO  11:59:41,951 - #47 int
+INFO  11:59:41,952 - #47 jedan
+INFO  11:59:41,952 - #11 =
+INFO  11:59:41,953 - #46 1
+INFO  11:59:41,953 - #5 ;
+INFO  11:59:41,953 - #13 const
+INFO  11:59:41,955 - #47 int
+INFO  11:59:41,955 - #47 pet
+INFO  11:59:41,955 - #11 =
+INFO  11:59:41,955 - #46 5
+INFO  11:59:41,956 - #5 ;
+INFO  11:59:41,956 - #13 const
+INFO  11:59:41,956 - #47 char
+INFO  11:59:41,956 - #47 sel
+INFO  11:59:41,956 - #11 =
+INFO  11:59:41,957 - #49 c
+INFO  11:59:41,957 - #5 ;
+INFO  11:59:41,959 - #47 char
+INFO  11:59:41,959 - #47 pom
+INFO  11:59:41,959 - #5 ;
+INFO  11:59:41,960 - #47 pom
+INFO  11:59:41,960 - #47 str
+INFO  11:59:41,960 - #5 ;
+INFO  11:59:41,960 - #47 int
+INFO  11:59:41,960 - #47 niz
+INFO  11:59:41,961 - #15 [
+INFO  11:59:41,961 - #14 ]
+INFO  11:59:41,961 - #8 ,
+INFO  11:59:41,961 - #47 num
+INFO  11:59:41,961 - #5 ;
+INFO  11:59:41,961 - #47 char
+INFO  11:59:41,961 - #47 nizch
+INFO  11:59:41,961 - #15 [
+INFO  11:59:41,961 - #14 ]
+INFO  11:59:41,962 - #8 ,
+INFO  11:59:41,962 - #47 c
+INFO  11:59:41,962 - #5 ;
+INFO  11:59:41,962 - #3 {
+INFO  11:59:41,962 - #47 int
+INFO  11:59:41,963 - #47 al
+INFO  11:59:41,963 - #6 (
+INFO  11:59:41,964 - #7 )
+INFO  11:59:41,965 - #3 {
+INFO  11:59:41,966 - #36 return
+INFO  11:59:41,967 - #47 jedan
+INFO  11:59:41,969 - #5 ;
+INFO  11:59:41,970 - #4 }
+INFO  11:59:41,971 - #12 void
+INFO  11:59:41,972 - #47 main
+INFO  11:59:41,972 - #6 (
+INFO  11:59:41,974 - #7 )
+INFO  11:59:41,974 - #3 {
+INFO  11:59:41,974 - #47 c
+INFO  11:59:41,974 - #11 =
+INFO  11:59:41,974 - #47 sel
+INFO  11:59:41,976 - #5 ;
+INFO  11:59:41,986 - #47 niz
+INFO  11:59:41,986 - #15 [
+INFO  11:59:41,986 - #46 2
+INFO  11:59:41,986 - #14 ]
+INFO  11:59:41,987 - #11 =
+INFO  11:59:41,987 - #19 -
+INFO  11:59:41,987 - #47 num
+INFO  11:59:41,989 - #5 ;
+INFO  11:59:41,989 - #4 }
+INFO  11:59:41,989 - #4 }
+ERROR 11:59:42,026 - Greska: Simbol sa imenom pom ne predstavlja tip  na liniji 13
+INFO  11:59:42,026 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 20
+INFO  11:59:42,026 - Detektovano koriscenje globalne promenljive Var c: char, 5, 0  na liniji 23
+INFO  11:59:42,026 - Detektovano koriscenje konstante Con sel: char, 99, 0  na liniji 23
+INFO  11:59:42,027 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 2, 0  na liniji 24
+INFO  11:59:42,027 - Detektovano koriscenje globalne promenljive Var num: int, 3, 0  na liniji 24
+ERROR 11:59:42,027 - Parsiranje NIJE uspesno zavrseno!

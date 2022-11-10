@@ -1,0 +1,79 @@
+INFO  15:18:50,531 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  15:18:50,602 - #2 program
+INFO  15:18:50,603 - #47 test301
+INFO  15:18:50,603 - #13 const
+INFO  15:18:50,604 - #47 int
+INFO  15:18:50,604 - #47 jedan
+INFO  15:18:50,606 - #11 =
+INFO  15:18:50,606 - #46 1
+INFO  15:18:50,606 - #5 ;
+INFO  15:18:50,606 - #13 const
+INFO  15:18:50,608 - #47 int
+INFO  15:18:50,608 - #47 pet
+INFO  15:18:50,608 - #11 =
+INFO  15:18:50,608 - #46 5
+INFO  15:18:50,608 - #5 ;
+INFO  15:18:50,609 - #13 const
+INFO  15:18:50,609 - #47 char
+INFO  15:18:50,609 - #47 sel
+INFO  15:18:50,609 - #11 =
+INFO  15:18:50,609 - #49 c
+INFO  15:18:50,609 - #5 ;
+INFO  15:18:50,611 - #47 char
+INFO  15:18:50,612 - #47 pom
+INFO  15:18:50,612 - #5 ;
+INFO  15:18:50,612 - #47 int
+INFO  15:18:50,612 - #47 niz
+INFO  15:18:50,612 - #15 [
+INFO  15:18:50,612 - #14 ]
+INFO  15:18:50,612 - #8 ,
+INFO  15:18:50,612 - #47 num
+INFO  15:18:50,612 - #5 ;
+INFO  15:18:50,612 - #47 char
+INFO  15:18:50,612 - #47 nizch
+INFO  15:18:50,612 - #15 [
+INFO  15:18:50,612 - #14 ]
+INFO  15:18:50,614 - #8 ,
+INFO  15:18:50,614 - #47 c
+INFO  15:18:50,614 - #5 ;
+INFO  15:18:50,614 - #3 {
+INFO  15:18:50,614 - #47 int
+INFO  15:18:50,615 - #47 al
+INFO  15:18:50,615 - #6 (
+INFO  15:18:50,615 - #7 )
+INFO  15:18:50,617 - #3 {
+INFO  15:18:50,618 - #36 return
+INFO  15:18:50,619 - #46 3
+INFO  15:18:50,620 - #5 ;
+INFO  15:18:50,621 - #4 }
+INFO  15:18:50,621 - #12 void
+INFO  15:18:50,622 - #47 main
+INFO  15:18:50,623 - #6 (
+INFO  15:18:50,623 - #7 )
+INFO  15:18:50,623 - #3 {
+INFO  15:18:50,623 - #47 num
+INFO  15:18:50,623 - #11 =
+INFO  15:18:50,623 - #46 5
+INFO  15:18:50,625 - #28 >
+INFO  15:18:50,625 - #47 c
+INFO  15:18:50,626 - #32 ?
+INFO  15:18:50,627 - #46 3
+INFO  15:18:50,636 - #33 :
+INFO  15:18:50,636 - #46 5
+INFO  15:18:50,636 - #5 ;
+INFO  15:18:50,637 - #47 niz
+INFO  15:18:50,637 - #15 [
+INFO  15:18:50,637 - #46 2
+INFO  15:18:50,637 - #14 ]
+INFO  15:18:50,637 - #11 =
+INFO  15:18:50,637 - #19 -
+INFO  15:18:50,637 - #47 num
+INFO  15:18:50,638 - #5 ;
+INFO  15:18:50,639 - #4 }
+INFO  15:18:50,639 - #4 }
+INFO  15:18:50,671 - Detektovano koriscenje globalne promenljive Var num: int, 2, 0  na liniji 22
+INFO  15:18:50,671 - Detektovano koriscenje globalne promenljive Var c: char, 4, 0  na liniji 22
+ERROR 15:18:50,671 - NISU
+INFO  15:18:50,671 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 1, 0  na liniji 25
+INFO  15:18:50,671 - Detektovano koriscenje globalne promenljive Var num: int, 2, 0  na liniji 25
+ERROR 15:18:50,672 - Parsiranje NIJE uspesno zavrseno!

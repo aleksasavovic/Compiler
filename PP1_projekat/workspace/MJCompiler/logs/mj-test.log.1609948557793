@@ -1,0 +1,14 @@
+INFO  16:55:40,515 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  16:55:40,596 - #2 program
+INFO  16:55:40,597 - #47 test301
+INFO  16:55:40,597 - #3 {
+INFO  16:55:40,598 - #47 int
+INFO  16:55:40,599 - #47 main
+INFO  16:55:40,600 - #6 (
+INFO  16:55:40,600 - #7 )
+INFO  16:55:40,601 - #3 {
+INFO  16:55:40,602 - #36 return
+INFO  16:55:40,603 - #46 3
+INFO  16:55:40,604 - #5 ;
+INFO  16:55:40,605 - #4 }
+INFO  16:55:40,605 - #4 }

@@ -1,0 +1,46 @@
+INFO  21:04:09,687 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  21:04:09,723 - #2 program
+INFO  21:04:09,723 - #20 MJProgram
+INFO  21:04:09,724 - #20 int
+INFO  21:04:09,725 - #20 x
+INFO  21:04:09,726 - #5 ;
+INFO  21:04:09,728 - #20 int
+INFO  21:04:09,729 - #20 y
+INFO  21:04:09,729 - #5 ;
+INFO  21:04:09,729 - #14 const
+INFO  21:04:09,730 - #20 int
+INFO  21:04:09,730 - #20 a
+INFO  21:04:09,730 - #12 =
+INFO  21:04:09,730 - #19 5
+INFO  21:04:09,730 - #8 ,
+INFO  21:04:09,730 - #20 b
+INFO  21:04:09,731 - #12 =
+INFO  21:04:09,731 - #19 10
+INFO  21:04:09,731 - #5 ;
+INFO  21:04:09,731 - #3 {
+INFO  21:04:09,732 - #20 int
+INFO  21:04:09,735 - #20 k
+INFO  21:04:09,735 - #6 (
+INFO  21:04:09,736 - #7 )
+INFO  21:04:09,737 - #20 int
+INFO  21:04:09,737 - #20 c
+INFO  21:04:09,737 - #5 ;
+INFO  21:04:09,738 - #3 {
+INFO  21:04:09,738 - #20 c
+INFO  21:04:09,739 - #12 =
+INFO  21:04:09,740 - #19 1
+INFO  21:04:09,740 - #5 ;
+INFO  21:04:09,742 - #10 return
+INFO  21:04:09,742 - #20 c
+INFO  21:04:09,742 - #11 +
+INFO  21:04:09,742 - #19 2
+INFO  21:04:09,743 - #5 ;
+INFO  21:04:09,743 - #4 }
+INFO  21:04:09,744 - #20 int
+INFO  21:04:09,745 - #20 main
+INFO  21:04:09,745 - #6 (
+INFO  21:04:09,745 - #7 )
+INFO  21:04:09,745 - #3 {
+ERROR 21:04:09,745 - 
+Sintaksna greska na liniji 12
+ERROR 21:04:09,745 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

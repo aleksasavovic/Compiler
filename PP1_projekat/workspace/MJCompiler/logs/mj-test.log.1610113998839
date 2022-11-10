@@ -1,0 +1,50 @@
+INFO  14:51:58,529 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  14:51:58,563 - #2 program
+INFO  14:51:58,564 - #47 test301
+INFO  14:51:58,564 - #47 int
+INFO  14:51:58,564 - #47 jedan
+INFO  14:51:58,565 - #8 ,
+INFO  14:51:58,565 - #47 dva
+INFO  14:51:58,565 - #15 [
+INFO  14:51:58,565 - #14 ]
+INFO  14:51:58,565 - #5 ;
+INFO  14:51:58,565 - #13 const
+INFO  14:51:58,566 - #47 int
+INFO  14:51:58,566 - #47 cint
+INFO  14:51:58,566 - #11 =
+INFO  14:51:58,566 - #46 10
+INFO  14:51:58,566 - #5 ;
+INFO  14:51:58,566 - #47 char
+INFO  14:51:58,566 - #47 c
+INFO  14:51:58,566 - #5 ;
+INFO  14:51:58,566 - #47 bool
+INFO  14:51:58,566 - #47 b
+INFO  14:51:58,568 - #5 ;
+INFO  14:51:58,568 - #3 {
+INFO  14:51:58,568 - #12 void
+INFO  14:51:58,570 - #47 main
+INFO  14:51:58,570 - #6 (
+INFO  14:51:58,570 - #7 )
+INFO  14:51:58,570 - #3 {
+INFO  14:51:58,570 - #47 jedan
+INFO  14:51:58,570 - #11 =
+INFO  14:51:58,570 - #19 -
+INFO  14:51:58,571 - #47 jedan
+INFO  14:51:58,572 - #10 +
+INFO  14:51:58,574 - #46 3
+INFO  14:51:58,574 - #19 -
+INFO  14:51:58,574 - #46 3
+INFO  14:51:58,575 - #5 ;
+INFO  14:51:58,575 - #47 jedan
+INFO  14:51:58,575 - #11 =
+INFO  14:51:58,575 - #47 dva
+INFO  14:51:58,575 - #15 [
+INFO  14:51:58,576 - #48 true
+INFO  14:51:58,576 - #14 ]
+INFO  14:51:58,576 - #5 ;
+INFO  14:51:58,577 - #4 }
+INFO  14:51:58,577 - #4 }
+INFO  14:51:58,591 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 19
+INFO  14:51:58,591 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 19
+INFO  14:51:58,591 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 20
+INFO  14:51:58,591 - Detektovano koriscenje globalne promenljive Var dva: Arr of int, 1, 0  na liniji 20

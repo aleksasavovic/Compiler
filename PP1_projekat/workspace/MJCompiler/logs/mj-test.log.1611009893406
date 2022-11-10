@@ -1,0 +1,68 @@
+INFO  23:44:31,465 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\projekat_final\workspace\MJCompiler\test\program.mj
+INFO  23:44:31,535 - #2 program
+INFO  23:44:31,550 - #47 test301
+INFO  23:44:31,550 - #13 const
+INFO  23:44:31,550 - #47 int
+INFO  23:44:31,550 - #47 nula
+INFO  23:44:31,550 - #11 =
+INFO  23:44:31,550 - #46 0
+INFO  23:44:31,550 - #5 ;
+INFO  23:44:31,550 - #13 const
+INFO  23:44:31,550 - #47 int
+INFO  23:44:31,550 - #47 jedan
+INFO  23:44:31,550 - #11 =
+INFO  23:44:31,550 - #46 1
+INFO  23:44:31,550 - #5 ;
+INFO  23:44:31,550 - #13 const
+INFO  23:44:31,550 - #47 int
+INFO  23:44:31,550 - #47 pet
+INFO  23:44:31,550 - #11 =
+INFO  23:44:31,550 - #46 5
+INFO  23:44:31,550 - #5 ;
+INFO  23:44:31,550 - #47 int
+INFO  23:44:31,550 - #47 niz
+INFO  23:44:31,550 - #15 [
+INFO  23:44:31,550 - #14 ]
+INFO  23:44:31,550 - #5 ;
+INFO  23:44:31,550 - #47 char
+INFO  23:44:31,550 - #47 nizch
+INFO  23:44:31,550 - #15 [
+INFO  23:44:31,550 - #14 ]
+INFO  23:44:31,550 - #5 ;
+INFO  23:44:31,550 - #3 {
+INFO  23:44:31,550 - #12 void
+INFO  23:44:31,550 - #47 main
+INFO  23:44:31,550 - #6 (
+INFO  23:44:31,550 - #7 )
+INFO  23:44:31,550 - #47 int
+INFO  23:44:31,566 - #47 bodovi
+INFO  23:44:31,566 - #5 ;
+INFO  23:44:31,566 - #47 bool
+INFO  23:44:31,566 - #47 bt
+INFO  23:44:31,566 - #5 ;
+INFO  23:44:31,566 - #47 int
+INFO  23:44:31,566 - #47 a
+INFO  23:44:31,566 - #8 ,
+INFO  23:44:31,566 - #47 b
+INFO  23:44:31,566 - #8 ,
+INFO  23:44:31,566 - #47 c
+INFO  23:44:31,566 - #5 ;
+INFO  23:44:31,566 - #3 {
+INFO  23:44:31,566 - #47 bodovi
+INFO  23:44:31,566 - #11 =
+INFO  23:44:31,566 - #47 a
+INFO  23:44:31,566 - #28 >
+INFO  23:44:31,566 - #47 b
+INFO  23:44:31,566 - #32 ?
+INFO  23:44:31,566 - #49 c
+INFO  23:44:31,566 - #33 :
+INFO  23:44:31,566 - #46 4
+INFO  23:44:31,566 - #5 ;
+INFO  23:44:31,581 - #4 }
+INFO  23:44:31,581 - #4 }
+INFO  23:44:31,604 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 18
+INFO  23:44:31,604 - Detektovano koriscenje lokalne promenljive Var a: int, 2, 1  na liniji 18
+INFO  23:44:31,604 - Detektovano koriscenje lokalne promenljive Var b: int, 3, 1  na liniji 18
+ERROR 23:44:31,604 - Izrazi za dodelu vrednosti moraju biti istog tipa
+ERROR 23:44:31,604 - Tip izraza nije kompatibilan pri dodeli vrednosti sa tipom  destinacionog objekta kojem se dodeljuje na liniji 18
+ERROR 23:44:31,604 - Parsiranje NIJE uspesno zavrseno!

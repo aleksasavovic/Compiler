@@ -1,0 +1,57 @@
+INFO  11:38:31,314 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:38:31,388 - #2 program
+INFO  11:38:31,388 - #47 test301
+INFO  11:38:31,388 - #47 int
+INFO  11:38:31,389 - #47 jedan
+INFO  11:38:31,390 - #8 ,
+INFO  11:38:31,391 - #47 dva
+INFO  11:38:31,391 - #5 ;
+INFO  11:38:31,391 - #3 {
+INFO  11:38:31,391 - #47 int
+INFO  11:38:31,392 - #47 m1
+INFO  11:38:31,392 - #6 (
+INFO  11:38:31,392 - #7 )
+INFO  11:38:31,393 - #3 {
+INFO  11:38:31,394 - #4 }
+INFO  11:38:31,395 - #47 int
+INFO  11:38:31,396 - #47 m2
+INFO  11:38:31,396 - #6 (
+INFO  11:38:31,396 - #7 )
+INFO  11:38:31,396 - #3 {
+INFO  11:38:31,396 - #36 return
+INFO  11:38:31,396 - #5 ;
+INFO  11:38:31,398 - #4 }
+INFO  11:38:31,399 - #47 int
+INFO  11:38:31,399 - #47 m3
+INFO  11:38:31,399 - #6 (
+INFO  11:38:31,400 - #7 )
+INFO  11:38:31,400 - #3 {
+INFO  11:38:31,400 - #36 return
+INFO  11:38:31,400 - #46 3
+INFO  11:38:31,401 - #5 ;
+INFO  11:38:31,401 - #4 }
+INFO  11:38:31,401 - #12 void
+INFO  11:38:31,401 - #47 main
+INFO  11:38:31,401 - #6 (
+INFO  11:38:31,401 - #7 )
+INFO  11:38:31,401 - #3 {
+INFO  11:38:31,401 - #47 jedan
+INFO  11:38:31,401 - #11 =
+INFO  11:38:31,401 - #46 2
+INFO  11:38:31,401 - #5 ;
+INFO  11:38:31,401 - #47 jedan
+INFO  11:38:31,401 - #11 =
+INFO  11:38:31,401 - #46 25
+INFO  11:38:31,401 - #37 .
+ERROR 11:38:31,401 - 
+Sintaksna greska na liniji 22
+INFO  11:38:31,406 - #46 9
+INFO  11:38:31,406 - #5 ;
+INFO  11:38:31,406 - #4 }
+INFO  11:38:31,406 - #4 }
+ERROR 11:38:31,423 -  Metoda m1 nema return iskaz! na liniji 14
+ERROR 11:38:31,423 - Metoda m2 mora biti tipa void
+INFO  11:38:31,423 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 21
+INFO  11:38:31,423 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 22
+INFO  11:38:31,423 - Uspesan oporavak od sintaksne greske pri dodeli vrednosti  na liniji 22
+ERROR 11:38:31,423 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,25 @@
+INFO  11:18:21,337 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:18:21,405 - #2 program
+INFO  11:18:21,406 - #47 test301
+INFO  11:18:21,406 - #47 int
+INFO  11:18:21,408 - #47 jedan
+INFO  11:18:21,408 - #5 ;
+INFO  11:18:21,409 - #3 {
+INFO  11:18:21,409 - #12 void
+INFO  11:18:21,410 - #47 main
+INFO  11:18:21,410 - #6 (
+INFO  11:18:21,411 - #7 )
+INFO  11:18:21,411 - #3 {
+INFO  11:18:21,412 - #47 jedan
+INFO  11:18:21,413 - #11 =
+INFO  11:18:21,414 - #46 25
+INFO  11:18:21,416 - #37 .
+ERROR 11:18:21,416 - 
+Sintaksna greska na liniji 16
+INFO  11:18:21,416 - #46 9
+INFO  11:18:21,417 - #5 ;
+INFO  11:18:21,417 - #4 }
+INFO  11:18:21,417 - #4 }
+INFO  11:18:21,446 - Detektovano koriscenje globalne promenljive Var jedan: int, 0, 0  na liniji 16
+INFO  11:18:21,446 - Uspesan oporavak od sintaksne greske pri dodeli vrednosti  na liniji 16
+ERROR 11:18:21,447 - Parsiranje NIJE uspesno zavrseno!

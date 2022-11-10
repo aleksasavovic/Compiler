@@ -1,0 +1,35 @@
+INFO  08:33:59,411 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  08:33:59,477 - #2 program
+INFO  08:33:59,478 - #47 test301
+INFO  08:33:59,478 - #3 {
+INFO  08:33:59,479 - #12 void
+INFO  08:33:59,480 - #47 main
+INFO  08:33:59,480 - #6 (
+INFO  08:33:59,480 - #7 )
+INFO  08:33:59,481 - #47 int
+INFO  08:33:59,482 - #47 bodovi
+INFO  08:33:59,483 - #5 ;
+INFO  08:33:59,483 - #47 bool
+INFO  08:33:59,483 - #47 bt
+INFO  08:33:59,484 - #5 ;
+INFO  08:33:59,484 - #3 {
+INFO  08:33:59,484 - #47 bodovi
+INFO  08:33:59,485 - #11 =
+INFO  08:33:59,485 - #19 -
+INFO  08:33:59,486 - #6 (
+INFO  08:33:59,487 - #19 -
+INFO  08:33:59,487 - #46 5
+INFO  08:33:59,490 - #20 *
+INFO  08:33:59,490 - #6 (
+INFO  08:33:59,492 - #19 -
+INFO  08:33:59,492 - #46 3
+INFO  08:33:59,492 - #10 +
+INFO  08:33:59,492 - #46 2
+INFO  08:33:59,493 - #7 )
+INFO  08:33:59,494 - #7 )
+INFO  08:33:59,494 - #5 ;
+INFO  08:33:59,494 - #4 }
+INFO  08:33:59,495 - #4 }
+INFO  08:33:59,522 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 12
+INFO  08:33:59,523 - Generating bytecode file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.obj
+INFO  08:33:59,527 - Parsiranje uspesno zavrseno!

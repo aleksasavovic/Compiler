@@ -1,0 +1,35 @@
+INFO  18:08:28,729 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  18:08:28,834 - #2 program
+INFO  18:08:28,834 - #47 test301
+INFO  18:08:28,834 - #13 const
+INFO  18:08:28,837 - #47 int
+INFO  18:08:28,837 - #47 nula
+INFO  18:08:28,838 - #11 =
+INFO  18:08:28,838 - #46 0
+INFO  18:08:28,838 - #5 ;
+INFO  18:08:28,839 - #13 const
+INFO  18:08:28,840 - #47 int
+INFO  18:08:28,840 - #47 jedan
+INFO  18:08:28,840 - #11 =
+INFO  18:08:28,841 - #46 1
+INFO  18:08:28,841 - #5 ;
+INFO  18:08:28,841 - #13 const
+INFO  18:08:28,841 - #47 int
+INFO  18:08:28,841 - #47 pet
+INFO  18:08:28,841 - #11 =
+INFO  18:08:28,841 - #46 5
+INFO  18:08:28,842 - #5 ;
+INFO  18:08:28,844 - #47 int
+INFO  18:08:28,844 - #47 niz
+INFO  18:08:28,844 - #15 [
+INFO  18:08:28,844 - #14 ]
+INFO  18:08:28,844 - #5 ;
+INFO  18:08:28,844 - #47 char
+INFO  18:08:28,845 - #47 nizch
+INFO  18:08:28,845 - #15 [
+INFO  18:08:28,845 - #14 ]
+INFO  18:08:28,845 - #5 ;
+INFO  18:08:28,845 - #3 {
+INFO  18:08:28,845 - #4 }
+ERROR 18:08:28,884 - Metoda main nije definisana
+ERROR 18:08:28,885 - Parsiranje NIJE uspesno zavrseno!

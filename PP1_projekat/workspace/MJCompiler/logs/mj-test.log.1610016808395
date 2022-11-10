@@ -1,0 +1,55 @@
+INFO  11:53:12,943 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:53:13,018 - #2 program
+INFO  11:53:13,018 - #47 test301
+INFO  11:53:13,018 - #13 const
+INFO  11:53:13,021 - #47 int
+INFO  11:53:13,021 - #47 jedan
+INFO  11:53:13,021 - #11 =
+INFO  11:53:13,021 - #46 1
+INFO  11:53:13,021 - #5 ;
+INFO  11:53:13,021 - #13 const
+INFO  11:53:13,024 - #47 int
+INFO  11:53:13,024 - #47 pet
+INFO  11:53:13,024 - #11 =
+INFO  11:53:13,024 - #46 5
+INFO  11:53:13,025 - #5 ;
+INFO  11:53:13,025 - #47 int
+INFO  11:53:13,025 - #47 niz
+INFO  11:53:13,025 - #15 [
+INFO  11:53:13,025 - #14 ]
+INFO  11:53:13,026 - #8 ,
+INFO  11:53:13,026 - #47 num
+INFO  11:53:13,028 - #5 ;
+INFO  11:53:13,028 - #47 char
+INFO  11:53:13,029 - #47 nizch
+INFO  11:53:13,029 - #15 [
+INFO  11:53:13,029 - #14 ]
+INFO  11:53:13,029 - #8 ,
+INFO  11:53:13,029 - #47 c
+INFO  11:53:13,029 - #5 ;
+INFO  11:53:13,030 - #3 {
+INFO  11:53:13,030 - #47 int
+INFO  11:53:13,031 - #47 al
+INFO  11:53:13,031 - #6 (
+INFO  11:53:13,031 - #7 )
+INFO  11:53:13,032 - #3 {
+INFO  11:53:13,033 - #4 }
+INFO  11:53:13,033 - #12 void
+INFO  11:53:13,035 - #47 main
+INFO  11:53:13,035 - #6 (
+INFO  11:53:13,035 - #7 )
+INFO  11:53:13,035 - #3 {
+INFO  11:53:13,035 - #47 niz
+INFO  11:53:13,035 - #15 [
+INFO  11:53:13,035 - #46 2
+INFO  11:53:13,037 - #14 ]
+INFO  11:53:13,037 - #11 =
+INFO  11:53:13,038 - #19 -
+INFO  11:53:13,039 - #47 num
+INFO  11:53:13,040 - #5 ;
+INFO  11:53:13,041 - #4 }
+INFO  11:53:13,041 - #4 }
+ERROR 11:53:13,075 - : funkcija al nema return iskaz! na liniji 16
+INFO  11:53:13,075 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 0, 0  na liniji 20
+INFO  11:53:13,075 - Detektovano koriscenje globalne promenljive Var num: int, 1, 0  na liniji 20
+ERROR 11:53:13,076 - Parsiranje NIJE uspesno zavrseno!

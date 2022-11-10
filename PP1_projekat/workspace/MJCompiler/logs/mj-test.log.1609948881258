@@ -1,0 +1,10 @@
+INFO  17:00:57,164 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  17:00:57,241 - #2 program
+INFO  17:00:57,242 - #47 test301
+INFO  17:00:57,242 - #47 int
+INFO  17:00:57,243 - #47 main
+INFO  17:00:57,244 - #5 ;
+INFO  17:00:57,245 - #3 {
+INFO  17:00:57,245 - #4 }
+ERROR 17:00:57,277 - Main mora biti metoda
+ERROR 17:00:57,278 - Parsiranje NIJE uspesno zavrseno!

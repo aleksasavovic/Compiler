@@ -1,0 +1,74 @@
+INFO  11:56:15,715 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\eclipse_lab\workspace\MJCompiler\test\program.mj
+INFO  11:56:15,786 - #2 program
+INFO  11:56:15,787 - #47 test301
+INFO  11:56:15,787 - #13 const
+INFO  11:56:15,788 - #47 int
+INFO  11:56:15,789 - #47 jedan
+INFO  11:56:15,789 - #11 =
+INFO  11:56:15,790 - #46 1
+INFO  11:56:15,790 - #5 ;
+INFO  11:56:15,790 - #13 const
+INFO  11:56:15,791 - #47 int
+INFO  11:56:15,791 - #47 pet
+INFO  11:56:15,791 - #11 =
+INFO  11:56:15,791 - #46 5
+INFO  11:56:15,791 - #5 ;
+INFO  11:56:15,792 - #13 const
+INFO  11:56:15,792 - #47 char
+INFO  11:56:15,792 - #47 c
+INFO  11:56:15,792 - #11 =
+INFO  11:56:15,792 - #49 c
+INFO  11:56:15,792 - #5 ;
+INFO  11:56:15,794 - #47 char
+INFO  11:56:15,794 - #47 pom
+INFO  11:56:15,794 - #5 ;
+INFO  11:56:15,794 - #47 int
+INFO  11:56:15,794 - #47 niz
+INFO  11:56:15,794 - #15 [
+INFO  11:56:15,794 - #14 ]
+INFO  11:56:15,794 - #8 ,
+INFO  11:56:15,794 - #47 num
+INFO  11:56:15,794 - #5 ;
+INFO  11:56:15,794 - #47 char
+INFO  11:56:15,797 - #47 nizch
+INFO  11:56:15,797 - #15 [
+INFO  11:56:15,797 - #14 ]
+INFO  11:56:15,797 - #8 ,
+INFO  11:56:15,797 - #47 c
+INFO  11:56:15,797 - #5 ;
+INFO  11:56:15,797 - #3 {
+INFO  11:56:15,797 - #47 int
+INFO  11:56:15,798 - #47 al
+INFO  11:56:15,798 - #6 (
+INFO  11:56:15,798 - #7 )
+INFO  11:56:15,799 - #3 {
+INFO  11:56:15,800 - #36 return
+INFO  11:56:15,801 - #47 jedan
+INFO  11:56:15,802 - #5 ;
+INFO  11:56:15,804 - #4 }
+INFO  11:56:15,804 - #12 void
+INFO  11:56:15,805 - #47 main
+INFO  11:56:15,805 - #6 (
+INFO  11:56:15,806 - #7 )
+INFO  11:56:15,806 - #3 {
+INFO  11:56:15,806 - #47 pom
+INFO  11:56:15,806 - #11 =
+INFO  11:56:15,806 - #47 c
+INFO  11:56:15,807 - #5 ;
+INFO  11:56:15,808 - #47 niz
+INFO  11:56:15,808 - #15 [
+INFO  11:56:15,808 - #46 2
+INFO  11:56:15,816 - #14 ]
+INFO  11:56:15,816 - #11 =
+INFO  11:56:15,817 - #19 -
+INFO  11:56:15,817 - #47 num
+INFO  11:56:15,818 - #5 ;
+INFO  11:56:15,818 - #4 }
+INFO  11:56:15,818 - #4 }
+ERROR 11:56:15,849 - Promenljiva sa imenom c vec postoji u trenutnom scope-u na liniji 15
+INFO  11:56:15,850 - Detektovano koriscenje konstante Con jedan: int, 1, 0  na liniji 20
+INFO  11:56:15,850 - Detektovano koriscenje globalne promenljive Var pom: char, 0, 0  na liniji 23
+INFO  11:56:15,850 - Detektovano koriscenje konstante Con c: char, 99, 0  na liniji 23
+INFO  11:56:15,850 - Detektovano koriscenje globalne promenljive Var niz: Arr of int, 1, 0  na liniji 24
+INFO  11:56:15,851 - Detektovano koriscenje globalne promenljive Var num: int, 2, 0  na liniji 24
+ERROR 11:56:15,851 - Parsiranje NIJE uspesno zavrseno!

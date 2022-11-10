@@ -1,0 +1,62 @@
+INFO  23:46:57,269 - Compiling source file: C:\Users\Aleksa\Desktop\fax\4. godina\7. semestar\pp1\projekat_final\workspace\MJCompiler\test\program.mj
+INFO  23:46:57,338 - #2 program
+INFO  23:46:57,353 - #47 test301
+INFO  23:46:57,353 - #13 const
+INFO  23:46:57,353 - #47 int
+INFO  23:46:57,353 - #47 nula
+INFO  23:46:57,353 - #11 =
+INFO  23:46:57,353 - #46 0
+INFO  23:46:57,353 - #5 ;
+INFO  23:46:57,353 - #13 const
+INFO  23:46:57,353 - #47 int
+INFO  23:46:57,353 - #47 jedan
+INFO  23:46:57,353 - #11 =
+INFO  23:46:57,353 - #46 1
+INFO  23:46:57,353 - #5 ;
+INFO  23:46:57,353 - #13 const
+INFO  23:46:57,353 - #47 int
+INFO  23:46:57,353 - #47 pet
+INFO  23:46:57,353 - #11 =
+INFO  23:46:57,353 - #46 5
+INFO  23:46:57,353 - #5 ;
+INFO  23:46:57,353 - #47 int
+INFO  23:46:57,353 - #47 niz
+INFO  23:46:57,353 - #15 [
+INFO  23:46:57,353 - #14 ]
+INFO  23:46:57,353 - #5 ;
+INFO  23:46:57,353 - #47 char
+INFO  23:46:57,353 - #47 nizch
+INFO  23:46:57,353 - #15 [
+INFO  23:46:57,353 - #14 ]
+INFO  23:46:57,353 - #5 ;
+INFO  23:46:57,353 - #3 {
+INFO  23:46:57,353 - #12 void
+INFO  23:46:57,353 - #47 main
+INFO  23:46:57,353 - #6 (
+INFO  23:46:57,353 - #7 )
+INFO  23:46:57,353 - #47 int
+INFO  23:46:57,353 - #47 bodovi
+INFO  23:46:57,369 - #5 ;
+INFO  23:46:57,369 - #47 bool
+INFO  23:46:57,369 - #47 bt
+INFO  23:46:57,369 - #5 ;
+INFO  23:46:57,369 - #47 int
+INFO  23:46:57,369 - #47 a
+INFO  23:46:57,369 - #8 ,
+INFO  23:46:57,369 - #47 b
+INFO  23:46:57,369 - #8 ,
+INFO  23:46:57,369 - #47 c
+INFO  23:46:57,369 - #5 ;
+INFO  23:46:57,369 - #3 {
+INFO  23:46:57,369 - #47 bodovi
+INFO  23:46:57,369 - #11 =
+INFO  23:46:57,369 - #49 a
+INFO  23:46:57,369 - #19 -
+INFO  23:46:57,369 - #46 3
+INFO  23:46:57,369 - #5 ;
+INFO  23:46:57,369 - #4 }
+INFO  23:46:57,369 - #4 }
+INFO  23:46:57,407 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 19
+ERROR 23:46:57,407 - Nekompatibilni tipovi u izrazu za sabiranje. na liniji 19
+ERROR 23:46:57,407 - Tip izraza nije kompatibilan pri dodeli vrednosti sa tipom  destinacionog objekta kojem se dodeljuje na liniji 19
+ERROR 23:46:57,407 - Parsiranje NIJE uspesno zavrseno!
